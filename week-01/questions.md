@@ -117,11 +117,74 @@ I learned that automation and AI are not the same thing. A fixed rule or calcula
 
 ### A — Answer
 
+When a user submits a prompt, the language model processes the input along with relevant conversation context. The text is split into tokens, which are converted into numerical representations. The model processes these representations using learned patterns and relationships between tokens. It calculates a probability distribution over possible next tokens, selects one, and adds it to the generated sequence. This process repeats until the response is complete or a stopping condition is reached.
+
+### Key terms
+
+- **Prompt:** The input or instruction given to the model, including any relevant context.
+- **Token:** A piece of text processed by the model. It may be a whole word, part of a word, punctuation, or another text unit.
+- **Context:** The information available to the model for the current response, such as the prompt and relevant conversation history, within its context limit.
+- **Probability:** A numerical value representing how likely a possible next token is according to the model's current prediction.
+- **Next-token prediction:** The process of estimating a probability distribution over possible next tokens, given the tokens already available.
+- **Generated response:** The text produced by repeatedly selecting tokens and converting the resulting sequence back into readable text.
+
+### Training vs inference
+
+**Training** is when the model learns patterns by adjusting its internal parameters using training data. **Inference** is when the already-trained model processes a prompt and generates an output. In ordinary inference, the model's learned parameters are not updated for every question asked.
+
+### B — Flow diagram
+
+```text
+User submits a prompt
+          ↓
+Text is split into tokens
+          ↓
+Tokens + available context
+          ↓
+Model processes the input
+(using learned patterns and attention)
+          ↓
+Probability distribution over next tokens
+          ↓
+Select one next token
+          ↓
+Append token to the sequence
+          ↓
+More text needed?
+     ↙ Yes       No ↘
+Process again    Generated response
+```
+
+### Why fluent text can still be false
+
+An LLM is trained to generate plausible continuations based on learned patterns; fluency does not guarantee that a statement is factually correct. If its learned patterns or available context do not support the correct answer, it may generate an incorrect claim or invent details. A model can therefore produce confident-sounding text without reliable evidence. Important factual claims should be checked against trustworthy sources.
+
 ### E — Evidence
+
+**Source 1 — Microsoft Learn:** *LLM Fundamentals*
+https://learn.microsoft.com/en-us/agent-framework/journey/llm-fundamentals
+
+Relevant sections: What is an LLM?, How LLMs are trained, and How inference works. The article explains tokens, next-token prediction, and the inference process.
+
+**Source 2 — University of Massachusetts Chan Medical School:** *How language models actually work*
+https://biocore.umassmed.edu/next-token/
+
+Relevant sections: The vocabulary and the explanation of next-token prediction. This educational resource explains tokens, probability distributions, training, inference, and why fluent output can be wrong.
 
 ### V — Verification
 
+**Status: Complete after checking the sources.**
+
+- [ ] I checked Microsoft's explanation of tokens and inference.
+- [ ] I checked the educational source's explanation of next-token prediction.
+- [ ] I confirmed that training adjusts model parameters, whereas inference uses a trained model to generate a response.
+- [ ] I confirmed that fluent output is not a guarantee of factual accuracy.
+
+**Verification note:** After reading the sources, record one fact you confirmed and any limitation or difference you noticed. Do not mark claims as verified until you have checked them.
+
 ### R — Reflection
+
+I learned that an LLM generates text step by step by predicting the next token using the prompt and available context. Training teaches the model patterns, while inference uses those learned patterns to generate a response. Since the model predicts plausible text rather than guaranteeing truth, I should verify important claims using reliable sources.
 
 ## Q4. Hallucination experiment
 
