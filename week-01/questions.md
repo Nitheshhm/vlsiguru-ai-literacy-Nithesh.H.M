@@ -194,15 +194,71 @@ I compared the important claims from both AI assistants with the official Python
 
 Both AI assistants produced correct answers, so this particular test did not expose a hallucination. However, the experiment showed that a confident and detailed answer should still be checked against a reliable reference. Claude provided more detail than ChatGPT, but the additional detail did not change the main verified conclusion. I learned that verification is useful even when the AI answer appears clear and convincing.
 
-## Q5. AI vs Search vs Authoritative Reference
+## Q5. AI Assistant vs Search vs Authoritative Reference
 
-### A — Answer and comparison
+### A — Answer
+
+**Common technical question:**
+
+> What does HTTP status code 404 mean?
+
+| Method | Findings |
+|---|---|
+| **AI Assistant — ChatGPT** | ChatGPT explained that HTTP status code 404 means the server could not find the requested resource. It also explained that 404 is a 4xx client error and that it does not by itself indicate whether the resource is temporarily or permanently unavailable. |
+| **Web Search — Google** | I searched the exact same question on Google. The search results showed MDN Web Docs as a top result. MDN explains that a 404 response means the server cannot find the requested resource. |
+| **Authoritative Reference — RFC 9110** | RFC 9110, Section 15.5.5, gives the formal definition of 404 Not Found. It states that the origin server did not find a current representation for the target resource, or is not willing to disclose that one exists. It also states that 404 does not indicate whether the condition is temporary or permanent. |
+
+### Comparison
+
+| Criterion | AI Assistant | Web Search | Authoritative Reference |
+|---|---|---|---|
+| **Accuracy** | Good for a direct explanation | Depends on the quality of the result selected | Provides the formal specification |
+| **Explanation** | Easy to understand and conversational | Can provide several explanations from different sources | More formal and technical |
+| **Traceability** | Depends on whether sources are provided | Source pages can be opened directly | Directly traceable to the HTTP specification |
+| **Ease of verification** | Easy to understand, but claims should still be checked | Easy to compare multiple sources | Best for checking the exact standard definition |
+
+### When I would use each method
+
+I would use an **AI assistant** when I need a quick explanation, examples, or help understanding a technical concept.
+
+I would use **web search** when I need to discover relevant sources, compare explanations, or find documentation.
+
+I would require a **primary or authoritative source** before making an important technical decision when the exact specification, standard, requirement, or official behavior matters.
 
 ### E — Evidence
 
+**AI source:** ChatGPT response to the exact question:
+
+> What does HTTP status code 404 mean?
+
+**Web search evidence:** Google search for the exact question. The search results showed MDN Web Docs and other explanatory sources.
+
+**Secondary technical source — MDN Web Docs:**
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/404
+
+MDN explains that HTTP 404 Not Found indicates that the server cannot find the requested resource.
+
+**Authoritative/primary source — RFC 9110, Section 15.5.5:**
+
+https://www.rfc-editor.org/rfc/rfc9110.html#name-404-not-found
+
+RFC 9110 gives the formal definition of the 404 status code and explains that it does not indicate whether the missing representation is temporary or permanent.
+
 ### V — Verification
 
+I compared the ChatGPT answer and Google search findings with the official HTTP specification.
+
+- [x] ChatGPT's explanation that 404 means the requested resource was not found was confirmed.
+- [x] The Google search result from MDN was checked against the MDN page.
+- [x] The MDN explanation was compared with RFC 9110.
+- [x] The statement that 404 does not indicate whether the condition is temporary or permanent was confirmed in RFC 9110.
+
+**Verification result:** The main explanation from ChatGPT and the MDN search result agrees with the authoritative definition in RFC 9110.
+
 ### R — Reflection
+
+I learned that an AI assistant, a search engine, and an authoritative reference serve different purposes. AI is useful for getting a quick explanation, while search helps locate information and relevant sources. An authoritative source is important when the exact technical definition or standard behavior matters. I should therefore use AI and search as ways to understand and find information, but verify important technical decisions against an appropriate authoritative source.
 
 ## Q6. What is an AI Agent?
 
