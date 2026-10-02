@@ -144,6 +144,10 @@ Process again   Generated response
 An LLM is trained to generate plausible continuations based on learned patterns; fluency does not guarantee that a statement is factually correct. If its learned patterns or available context do not support the correct answer, it may generate an incorrect claim or invent details. A model can therefore produce confident-sounding text without reliable evidence. Important factual claims should be checked against trustworthy sources.
 
 ### E — Evidence
+### Exact Response Evidence
+
+- [ChatGPT exact response](evidence/q4-chatgpt-response.png)
+- [Claude exact response](evidence/q4-claude-response.png)
 **Source 1 — Microsoft Learn:** *LLM Fundamentals*
 https://learn.microsoft.com/en-us/agent-framework/journey/llm-fundamentals
 Relevant sections: What is an LLM?, How LLMs are trained, and How inference works. The article explains tokens, next-token prediction, and the inference process.
