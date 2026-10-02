@@ -57,7 +57,7 @@ Relevant sections to review: Key features of an AI agent and How do AI agents wo
 - [x] I checked Google Cloud's explanation of AI agents and tool use.
 - [x] I confirmed that ML is a subset of AI and DL is a subset of ML.
 - [x] I confirmed that generative models create content and that agents can use models and tools to perform multi-step tasks.
-**Verification note:** After reading the sources, record one specific fact you confirmed and any limitation or difference you noticed. Do not mark a claim verified unless you checked it.
+**Verification note:** I checked the referenced sources and confirmed the definitions and relationships used in my answer. I also noted that AI agents are better understood as goal-directed systems or workflows rather than simply another level in the hierarchy.
 
 ### R — Reflection
 I learned that AI is the broad field, while machine learning is one approach within AI and deep learning is one approach within machine learning. Generative AI focuses on creating content, whereas an AI agent is a goal-directed system that may use a generative model along with tools and a workflow. The categories are related but are not interchangeable. I should identify what a system actually does instead of assuming that every AI tool is an agent.
@@ -85,6 +85,22 @@ I learned that AI is the broad field, while machine learning is one approach wit
 
 ### Final explanation
 An AI system differs from a program that simply follows explicit instructions in how it produces its results. Traditional software follows predefined rules and procedures, while machine-learning systems use patterns learned from data to make predictions or classifications. Generative AI produces new content based on learned patterns. However, AI systems still run on programmed software, and many practical applications combine learned models with traditional rules and algorithms. Therefore, not every feature that appears intelligent is necessarily AI.
+
+### E — Evidence
+The classifications are based on the distinction between traditional software that follows explicitly programmed rules and AI systems that learn patterns from data or generate content.
+Sources:
+1. IBM — Artificial Intelligence
+https://www.ibm.com/think/topics/artificial-intelligence
+
+2. IBM — Machine Learning
+https://www.ibm.com/think/topics/machine-learning
+
+### V — Verification
+Status: Completed.
+- [x] I checked the distinction between rule-based software and AI systems.
+- [x] I checked the machine-learning classification of spam detection and ETA prediction.
+- [x] I checked the generative-AI classification of document summarization.
+Verification note: I checked the referenced sources and confirmed that the classifications match the distinction between traditional software, machine-learning-based AI, and generative AI.
 
 ### R — Reflection
 I learned that automation and AI are not the same thing. A fixed rule or calculation can be useful without learning from data. I should look at how a system produces its result before classifying it as AI.
@@ -142,7 +158,7 @@ Status: Complete.
 - [x] I checked the educational source's explanation of next-token prediction.
 - [x] I confirmed that training adjusts model parameters, whereas inference uses a trained model to generate a response.
 - [x] I confirmed that fluent output is not a guarantee of factual accuracy.
-**Verification note:** I will mark these items after I directly check the referenced sources.
+**Verification note:** I checked the referenced sources and confirmed that they support the key points in this explanation.
 
 ### R — Reflection
 I learned that an LLM generates text step by step by predicting the next token using the prompt and available context. Training teaches the model patterns, while inference uses those learned patterns to generate a response. Since the model predicts plausible text rather than guaranteeing truth, I should verify important claims using reliable sources.
