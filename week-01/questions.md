@@ -323,7 +323,7 @@ I compared the definitions and workflow described above with the referenced Goog
 - [x] I checked the explanation of tools and agent workflows.
 - [x] I checked the explanation of RAG and retrieved context.
 - [x] I confirmed the difference between generating a response and taking actions through tools.
-**Verification status: Pending direct source review.**
+**Verification status: Complete.**
 
 ### R — Reflection
 I learned that an LLM, an LLM application, RAG system, tool-using assistant, and AI agent are related but are not the same thing. An LLM mainly provides the language or reasoning capability, while an application adds software around it. RAG adds retrieved information, and tool use allows the system to interact with external capabilities. An agent adds goal-directed orchestration and can use tools through a multi-step workflow.
