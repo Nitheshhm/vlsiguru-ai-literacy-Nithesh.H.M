@@ -217,13 +217,10 @@ Both AI assistants produced correct answers, so this particular test did not exp
 | **Traceability** | Depends on whether sources are provided | Source pages can be opened directly | Directly traceable to the HTTP specification |
 | **Ease of verification** | Easy to understand, but claims should still be checked | Easy to compare multiple sources | Best for checking the exact standard definition |
 
-### When I would use each method
-
-I would use an **AI assistant** when I need a quick explanation, examples, or help understanding a technical concept.
-
-I would use **web search** when I need to discover relevant sources, compare explanations, or find documentation.
-
-I would require a **primary or authoritative source** before making an important technical decision when the exact specification, standard, requirement, or official behavior matters.
+### Final Conclusion
+I would use an AI assistant when I need a quick explanation, examples, or help understanding a technical concept.
+I would use web search when I need to discover relevant sources, compare explanations, or find documentation.
+I would require a primary or authoritative source before making an important technical decision when the exact specification, standard, requirement, or official behavior matters.
 
 ### E — Evidence
 
@@ -254,7 +251,7 @@ I compared the ChatGPT answer and Google search findings with the official HTTP 
 - [x] The MDN explanation was compared with RFC 9110.
 - [x] The statement that 404 does not indicate whether the condition is temporary or permanent was confirmed in RFC 9110.
 
-**Verification result:** The main explanation from ChatGPT and the MDN search result agrees with the authoritative definition in RFC 9110.
+Verification result: The main explanation from ChatGPT and the MDN search result agree with the authoritative definition in RFC 9110.
 
 ### R — Reflection
 
