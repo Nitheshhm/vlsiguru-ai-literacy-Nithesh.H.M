@@ -17,7 +17,7 @@
 
 ## Notes & Takeaways
 - Set up my GitHub repository.
-- Completed all 10 Week 1 questions.
+- Completed all 10 questions of Week-1 .
 - Compared ChatGPT and Claude.
 - Verified important claims using reliable sources.
 - Learned the importance of checking AI answers before trusting them.
