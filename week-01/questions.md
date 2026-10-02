@@ -329,15 +329,35 @@ I compared the definitions and workflow described above with the referenced Goog
 I learned that an LLM, an LLM application, RAG system, tool-using assistant, and AI agent are related but are not the same thing. An LLM mainly provides the language or reasoning capability, while an application adds software around it. RAG adds retrieved information, and tool use allows the system to interact with external capabilities. An agent adds goal-directed orchestration and can use tools through a multi-step workflow.
 
 
-## Q7. Where should humans still make the decision?
-
+## Q7. Where Should Humans Still Make the Decision?
 ### A — Answer
+AI can be useful for reading documents, answering questions, summarizing information, generating text, and suggesting actions. However, I would still require a human to inspect or approve the output before acting in situations where an incorrect result could cause significant consequences.
+
+| Situation | Possible Failure | Required Verification | Who/What Approves |
+|---|---|---|---|
+| **1. Medical information or health-related recommendation** | The AI could misunderstand symptoms, provide incomplete information, or give an unsuitable recommendation. | Check the information against reliable medical sources and consult a qualified healthcare professional. | Qualified healthcare professional |
+| **2. Financial decision or investment recommendation** | The AI could use incomplete information, misunderstand risk, or produce an incorrect calculation. | Check calculations, current information, assumptions, and relevant financial documentation. | Person responsible for the financial decision |
+| **3. Legal advice or interpretation of a legal document** | The AI could misunderstand the law, miss an important condition, or interpret a document incorrectly. | Check the relevant law, official legal sources, and the original document. | Qualified legal professional or responsible decision-maker |
+| **4. Safety-critical instruction or procedure** | An incorrect instruction could create a physical safety risk or cause equipment damage. | Compare the output with approved procedures, manuals, standards, and safety requirements; test where appropriate. | Qualified engineer or authorized safety personnel |
+| **5. Important academic or engineering result** | The AI could make a calculation error, use a wrong assumption, or provide unsupported technical information. | Recalculate independently, test the result, inspect assumptions, and check reliable technical references. | Human engineer, student, or responsible reviewer |
+
+### Simple Rule for Responsible AI-Assisted Work
+I should not act on an AI-generated recommendation merely because it sounds correct. When the result could have important consequences, a human should inspect the assumptions, verify the evidence, test the result where possible, and approve the final decision.
 
 ### E — Evidence
+The Week 1 guide emphasizes that AI-assisted engineering is intended to support human judgment rather than transfer responsibility to an AI system. It asks for five situations in which a human should inspect or approve the output, together with the possible failure, required evidence, and responsible approver.
+The guide also states that important factual or technical claims should be verified using appropriate evidence and that AI output should not be treated as proof by itself.
 
 ### V — Verification
+I checked each situation to make sure it includes:
+- [x] A situation where human inspection or approval is required.
+- [x] A possible failure if the AI output is accepted without verification.
+- [x] Evidence or checks needed before trusting the result.
+- [x] A person or authority responsible for approving the result.
+**Verification status: Complete.**
 
 ### R — Reflection
+I learned that using AI does not remove human responsibility for important decisions. The level of checking should increase when an incorrect AI result could cause greater harm, loss, or other consequences. I should treat AI as a tool that supports my reasoning while keeping the final decision and accountability with a human.
 
 ## Q8. Find AI around you
 
