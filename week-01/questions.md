@@ -144,10 +144,6 @@ Process again   Generated response
 An LLM is trained to generate plausible continuations based on learned patterns; fluency does not guarantee that a statement is factually correct. If its learned patterns or available context do not support the correct answer, it may generate an incorrect claim or invent details. A model can therefore produce confident-sounding text without reliable evidence. Important factual claims should be checked against trustworthy sources.
 
 ### E — Evidence
-### Exact Response Evidence
-
-- [ChatGPT exact response](evidence/q4-chatgpt-response.png)
-- [Claude exact response](evidence/q4-claude-response.png)
 **Source 1 — Microsoft Learn:** *LLM Fundamentals*
 https://learn.microsoft.com/en-us/agent-framework/journey/llm-fundamentals
 Relevant sections: What is an LLM?, How LLMs are trained, and How inference works. The article explains tokens, next-token prediction, and the inference process.
@@ -179,6 +175,10 @@ I learned that an LLM generates text step by step by predicting the next token u
 | Claude | Explained that `list.sort()` returns `None` and modifies the original list in place. It also explained that `sorted()` returns a new sorted list and does not modify the original list. It provided examples and additional details about iterables and sorting options. | `list.sort()` returns `None`, modifies the list in place, and `sorted()` returns a new sorted list. | Correct |
 
 ### E — Evidence
+### Exact Response Evidence
+- [ChatGPT exact response](evidence/q4-chatgpt-response.png)
+- [Claude exact response](evidence/q4-claude-response.png)
+
 **Verification source — Python Documentation: Sorting Techniques**
 https://docs.python.org/3.13/howto/sorting.html
 The Python documentation explains that `list.sort()` sorts a list in place and returns `None`. It also explains that `sorted()` returns a new sorted list.
@@ -412,6 +412,7 @@ I learned that AI can appear in many everyday features, but the type of task can
 | **G. Generating an image from a text description** | **Generation** | The system creates new image content from the supplied text description. |
 | **H. Predicting the next word/token in a sentence** | **Prediction** | The model estimates which token is most likely to come next based on the tokens already available. |
 
+
 ### Why Next-Token Prediction Is Fundamental
 Next-token prediction is fundamental to modern language models because the model can generate a complete response by repeatedly predicting what token should come next from the available context. By continuing this process, the model can produce many different kinds of language output, including emails, summaries, answers to questions, and computer code. The final application may look like a different task, but language generation can still be built from repeated next-token predictions.
 Some real systems can involve more than one task type. For example, summarization involves understanding or processing the input and then generating a summary. In this table, the classification is based on the **primary visible behavior** of the task.
@@ -461,25 +462,6 @@ Identify anything that is unclear, unsupported, or dependent on assumptions.
 Based on the checks above, decide whether the output can be accepted, should be rejected, or needs revision and further verification.  
 **Why:** The final decision remains a human engineering judgment rather than an automatic acceptance of the AI output.
 
-### E — Evidence
-The Week 1 guide requires a seven-step procedure and specifically says the protocol must include defining the problem, inspecting assumptions, checking evidence/source, testing the result, and deciding whether to accept, reject, or revise the output.
-The Week 1 workflow also emphasizes defining, investigating, inspecting, verifying, concluding, documenting, and reflecting before accepting an AI result.
-
-### V — Verification
-I compared my seven-step protocol with the Week 1 assessment requirements.
-- [x] The protocol contains seven steps.
-- [x] It defines the problem.
-- [x] It inspects assumptions.
-- [x] It checks evidence and sources.
-- [x] It tests the result.
-- [x] It includes an accept, reject, or revise decision.
-- [x] Each step explains its purpose and the failure it is intended to catch.
-- [x] A non-VLSI worked example is included.
-**Verification status: Complete.**
-
-### R — Reflection
-I learned that verifying an AI result is not just checking whether the final answer looks correct. I need to understand the problem, inspect the assumptions, check the evidence, test the result, and make a final human judgment. This protocol can be improved later in the program as I learn more about AI-assisted engineering.
-
 ### Worked Example — Non-VLSI Task
 Suppose I ask an AI assistant to calculate the total cost of a purchase after applying discounts.
 
@@ -503,3 +485,22 @@ I check whether any required information, such as tax or shipping charges, is mi
 
 **7. Accept, reject, or revise:**  
 If the calculation is correct and the assumptions are valid, I accept it. If there is an error, I revise the inputs or reject the result and calculate it again.
+
+### E — Evidence
+The Week 1 guide requires a seven-step procedure and specifically says the protocol must include defining the problem, inspecting assumptions, checking evidence/source, testing the result, and deciding whether to accept, reject, or revise the output.
+The Week 1 workflow also emphasizes defining, investigating, inspecting, verifying, concluding, documenting, and reflecting before accepting an AI result.
+
+### V — Verification
+I compared my seven-step protocol with the Week 1 assessment requirements.
+- [x] The protocol contains seven steps.
+- [x] It defines the problem.
+- [x] It inspects assumptions.
+- [x] It checks evidence and sources.
+- [x] It tests the result.
+- [x] It includes an accept, reject, or revise decision.
+- [x] Each step explains its purpose and the failure it is intended to catch.
+- [x] A non-VLSI worked example is included.
+**Verification status: Complete.**
+
+### R — Reflection
+I learned that verifying an AI result is not just checking whether the final answer looks correct. I need to understand the problem, inspect the assumptions, check the evidence, test the result, and make a final human judgment. This protocol can be improved later in the program as I learn more about AI-assisted engineering.
