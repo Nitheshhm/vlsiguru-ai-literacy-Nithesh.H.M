@@ -155,15 +155,44 @@ Status: Complete.
 ### R — Reflection
 I learned that an LLM generates text step by step by predicting the next token using the prompt and available context. Training teaches the model patterns, while inference uses those learned patterns to generate a response. Since the model predicts plausible text rather than guaranteeing truth, I should verify important claims using reliable sources.
 
-## Q4. Hallucination experiment
+## Q4. Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?
 
-### A — Answer and observations
+### A — Answer
+
+**Exact question asked to both AI assistants:**
+
+"In Python, what does list.sort() return? Does it modify the original list? Also explain the difference between list.sort() and sorted()."
+
+### Experiment Results
+
+| AI Assistant | Response Summary | Verified Claim | Result |
+|---|---|---|---|
+| ChatGPT | Explained that `list.sort()` returns `None` and modifies the original list in place. It explained that `sorted()` returns a new sorted list while leaving the original list unchanged. | `list.sort()` returns `None`, modifies the list in place, and `sorted()` returns a new sorted list. | Correct |
+| Claude | Explained that `list.sort()` returns `None` and modifies the original list in place. It also explained that `sorted()` returns a new sorted list and does not modify the original list. It provided examples and additional details about iterables and sorting options. | `list.sort()` returns `None`, modifies the list in place, and `sorted()` returns a new sorted list. | Correct |
 
 ### E — Evidence
 
+**Verification source — Python Documentation: Sorting Techniques**
+
+https://docs.python.org/3.13/howto/sorting.html
+
+The Python documentation explains that `list.sort()` sorts a list in place and returns `None`. It also explains that `sorted()` returns a new sorted list.
+
 ### V — Verification
 
+I compared the important claims from both AI assistants with the official Python documentation.
+
+- [x] ChatGPT's explanation of `list.sort()` was checked.
+- [x] Claude's explanation of `list.sort()` was checked.
+- [x] I confirmed that `list.sort()` modifies the original list in place.
+- [x] I confirmed that `list.sort()` returns `None`.
+- [x] I confirmed that `sorted()` returns a new sorted list.
+
+**Verification result:** Both ChatGPT and Claude gave answers consistent with the official Python documentation. No contradictory or incorrect claim was found in the main answer.
+
 ### R — Reflection
+
+Both AI assistants produced correct answers, so this particular test did not expose a hallucination. However, the experiment showed that a confident and detailed answer should still be checked against a reliable reference. Claude provided more detail than ChatGPT, but the additional detail did not change the main verified conclusion. I learned that verification is useful even when the AI answer appears clear and convincing.
 
 ## Q5. AI vs Search vs Authoritative Reference
 
