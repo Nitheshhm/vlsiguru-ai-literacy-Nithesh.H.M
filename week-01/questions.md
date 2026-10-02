@@ -257,15 +257,76 @@ Verification result: The main explanation from ChatGPT and the MDN search result
 
 I learned that an AI assistant, a search engine, and an authoritative reference serve different purposes. AI is useful for getting a quick explanation, while search helps locate information and relevant sources. An authoritative source is important when the exact technical definition or standard behavior matters. I should therefore use AI and search as ways to understand and find information, but verify important technical decisions against an appropriate authoritative source.
 
-## Q6. What is an AI Agent?
-
+## Q6. What Is an AI Agent?
 ### A — Answer
+| Concept                  | Explanation                                                                                                                                                                                                                      |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **LLM**                  | A Large Language Model is a model trained on large amounts of data that can understand and generate language by predicting and producing tokens based on the input context.                                                      |
+| **LLM Application**      | An LLM application is a software application that uses an LLM as one of its components to provide a specific feature or solve a particular problem.                                                                              |
+| **RAG System**           | Retrieval-Augmented Generation (RAG) is a system that retrieves relevant information from an external source, such as documents or a database, and provides that information as context to the LLM before generating a response. |
+| **Tool-using Assistant** | A tool-using assistant is an AI application that can call external tools or services, such as calculators, search systems, APIs, or databases, to obtain information or perform an operation.                                    |
+| **AI Agent**             | An AI agent is a system that uses a model together with tools and orchestration to pursue a goal, decide what actions or tools are needed, use their results, and continue through a workflow until it can produce a result.     |
+RAG adds retrieved information to the LLM's context, while an agent can use tools and make decisions about actions as part of a multi-step workflow.
+
+### Comparison
+| System                   | Main capability                                                                          |
+| ------------------------ | ---------------------------------------------------------------------------------------- |
+| **LLM**                  | Generates or processes language                                                          |
+| **LLM Application**      | Uses an LLM inside a larger software application                                         |
+| **RAG System**           | Retrieves external information and uses it as context for generation                     |
+| **Tool-using Assistant** | Can call available tools to perform specific operations                                  |
+| **AI Agent**             | Can use models, tools, and orchestration to work toward a goal through one or more steps |
+
+### Architecture Diagram
+```text
+User Request
+     ↓
+   Model / LLM
+     ↓
+Decide whether a tool is needed
+     ↓
+   Tool Call
+     ↓
+ External Tool / Data Source
+     ↓
+   Tool Result
+     ↓
+Model processes the result
+     ↓
+Decision / Next Action
+     ↓
+Final Response
+```
+The important difference is that the tool result can influence what the system does next. In a multi-step agentic workflow, the system can continue using tools or actions until the task is completed. Google Cloud describes agents as applications that process input, use available tools, and take actions based on decisions.
+
+### What makes an agent different from a simple chatbot?
+A simple chatbot may mainly receive a prompt and generate a response. An agentic system can go beyond producing text by deciding when to use tools, obtaining information or performing actions, examining the results, and continuing through a multi-step workflow toward a goal. The exact amount of autonomy depends on how the system is designed.
+
+### Non-VLSI Example
+
+A travel-booking assistant can be designed as an agentic workflow. A user could ask it to plan a trip. The system could search available flights and hotels using tools, compare the results with the user's requirements, ask for missing information if necessary, and then prepare the final itinerary. The model is therefore not only generating text; it is participating in a workflow that uses external tools and decisions.
 
 ### E — Evidence
 
+**Source 1 — Google Cloud: Generative AI Glossary — AI Agents**
+[https://docs.cloud.google.com/docs/generative-ai/glossary](https://docs.cloud.google.com/docs/generative-ai/glossary)
+Google Cloud describes an AI agent as an application that achieves a goal by processing input, reasoning with available tools, and taking actions based on its decisions.
+
+**Source 2 — Google Cloud: What is Retrieval-Augmented Generation (RAG)?**
+[https://cloud.google.com/use-cases/retrieval-augmented-generation](https://cloud.google.com/use-cases/retrieval-augmented-generation)
+Google Cloud explains that RAG combines information retrieval with LLM generation and uses retrieved information to augment the model's context.
+
 ### V — Verification
+I compared the definitions and workflow described above with the referenced Google Cloud documentation.
+- [x] I checked the AI agent definition.
+- [x] I checked the explanation of tools and agent workflows.
+- [x] I checked the explanation of RAG and retrieved context.
+- [x] I confirmed the difference between generating a response and taking actions through tools.
+**Verification status: Pending direct source review.**
 
 ### R — Reflection
+I learned that an LLM, an LLM application, RAG system, tool-using assistant, and AI agent are related but are not the same thing. An LLM mainly provides the language or reasoning capability, while an application adds software around it. RAG adds retrieved information, and tool use allows the system to interact with external capabilities. An agent adds goal-directed orchestration and can use tools through a multi-step workflow.
+
 
 ## Q7. Where should humans still make the decision?
 
