@@ -79,15 +79,39 @@ Relevant sections to review: Key features of an AI agent and How do AI agents wo
 ### R — Reflection
 
 I learned that AI is the broad field, while machine learning is one approach within AI and deep learning is one approach within machine learning. Generative AI focuses on creating content, whereas an AI agent is a goal-directed system that may use a generative model along with tools and a workflow. The categories are related but are not interchangeable. I should identify what a system actually does instead of assuming that every AI tool is an agent.
+
+
 ## Q2. Is everything that looks intelligent actually AI?
 
 ### A — Answer
 
-### E — Evidence
+| Scenario | Classification | Reason |
+|---|---|---|
+| A. A calculator produces 25 × 16 = 400. | Deterministic/traditional software (not AI) | It follows a fixed arithmetic procedure to calculate the result. It does not need to learn from data. |
+| B. A rule-based program says: If temperature > 80°C, display WARNING. | Deterministic/traditional software (not AI) | A programmer explicitly defined the condition and action. The same input produces the same output. |
+| C. An email system identifies spam based on patterns learned from previous email data. | Machine-learning-based AI | The system learns patterns from example emails and uses them to classify new messages as spam or not spam. |
+| D. An AI assistant writes a summary of a document. | Generative AI | The model generates new text that expresses the document's main ideas in a shorter form. |
+| E. A navigation application predicts estimated arrival time using traffic and historical data. | Machine-learning-based AI | It can use current traffic and historical patterns to predict travel time. The navigation application may also use traditional algorithms for routing. |
 
-### V — Verification
+### Reasoning
+
+**A — Calculator:** The calculator follows mathematical rules to produce an exact result. Looking intelligent does not make it AI; it performs a predefined computation.
+
+**B — Rule-based program:** The program checks whether the temperature exceeds 80°C and displays a warning if the condition is true. The behavior is explicitly programmed rather than learned from data.
+
+**C — Spam detection:** The system learns statistical patterns from previously labelled emails and applies them to new messages. This is machine-learning-based AI because learning from data is involved.
+
+**D — Document summary:** The assistant generates a new, shorter piece of text based on the document. This is generative AI because it produces content rather than simply applying a fixed rule.
+
+**E — Arrival-time prediction:** The application uses traffic information and historical data to estimate how long a journey will take. A learned prediction model makes this machine-learning-based AI, although other parts of the navigation system may use traditional software.
+
+### Final explanation
+
+An AI system differs from a program that simply follows explicit instructions in how it produces its results. Traditional software follows predefined rules and procedures, while machine-learning systems use patterns learned from data to make predictions or classifications. Generative AI produces new content based on learned patterns. However, AI systems still run on programmed software, and many practical applications combine learned models with traditional rules and algorithms. Therefore, not every feature that appears intelligent is necessarily AI.
 
 ### R — Reflection
+
+I learned that automation and AI are not the same thing. A fixed rule or calculation can be useful without learning from data. I should look at how a system produces its result before classifying it as AI.
 
 ## Q3. What happens when you ask an LLM a question?
 
