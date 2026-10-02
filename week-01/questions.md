@@ -111,7 +111,7 @@ When a user submits a prompt, the language model processes the input along with 
 **Training** is when the model learns patterns by adjusting its internal parameters using training data. **Inference** is when the already-trained model processes a prompt and generates an output. In ordinary inference, the model's learned parameters are not updated for every question asked.
 
 ### Flow Diagram
-
+```text
 User submits a prompt
         ↓
 Text is split into tokens
@@ -129,7 +129,7 @@ Append token to the sequence
 More text needed?
    ↓ Yes        ↓ No
 Process again   Generated response
-
+```
 ### Why fluent text can still be false
 An LLM is trained to generate plausible continuations based on learned patterns; fluency does not guarantee that a statement is factually correct. If its learned patterns or available context do not support the correct answer, it may generate an incorrect claim or invent details. A model can therefore produce confident-sounding text without reliable evidence. Important factual claims should be checked against trustworthy sources.
 
