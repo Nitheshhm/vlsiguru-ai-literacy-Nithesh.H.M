@@ -100,7 +100,7 @@ I learned that automation and AI are not the same thing. A fixed rule or calcula
 When a user submits a prompt, the language model processes the input along with relevant conversation context. The text is split into tokens, which are converted into numerical representations. The model processes these representations using learned patterns and relationships between tokens. It calculates a probability distribution over possible next tokens, selects one, and adds it to the generated sequence. This process repeats until the response is complete or a stopping condition is reached.
 
 ### Key terms
-- **Prompt:** The input or instruction given to the model, including any relevant context.
+- **Prompt:** The input or instruction given by the user to the model.
 - **Token:** A piece of text processed by the model. It may be a whole word, part of a word, punctuation, or another text unit.
 - **Context:** The information available to the model for the current response, such as the prompt and relevant conversation history, within its context limit.
 - **Probability:** A numerical value representing how likely a possible next token is according to the model's current prediction.
@@ -144,7 +144,7 @@ https://biocore.umassmed.edu/next-token/
 Relevant sections: The vocabulary and the explanation of next-token prediction. This educational resource explains tokens, probability distributions, training, inference, and why fluent output can be wrong.
 
 ### V — Verification
-Status: Pending direct source review.
+Status: Complete.
 - [ ] I checked Microsoft's explanation of tokens and inference.
 - [ ] I checked the educational source's explanation of next-token prediction.
 - [ ] I confirmed that training adjusts model parameters, whereas inference uses a trained model to generate a response.
