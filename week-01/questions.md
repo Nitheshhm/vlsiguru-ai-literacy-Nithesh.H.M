@@ -1,11 +1,9 @@
 # Week 01 — Foundational Questions
 
 ## Q1. AI → ML → Deep Learning → Generative AI → Agents
-
 ### A — Answer
 **1. Artificial Intelligence (AI)**
 AI is the broad field of making computer systems perform tasks that normally require human-like abilities, such as understanding language, recognizing objects, solving problems, and making decisions.
-
 **Everyday example:** A voice assistant that understands a spoken request.
 
 **2. Machine Learning (ML)**
@@ -35,7 +33,6 @@ AI Agent = a goal-directed system/workflow
            that may use a generative model or other AI
            + tools + planning/control + feedback
 ```
-
 This is a simplified map, not a rule that every AI agent must use deep learning or generative AI. Agents are better understood as systems or workflows, not simply another level in the hierarchy.
 
 ### Relationship between a generative model and an agent
@@ -44,29 +41,26 @@ A generative model produces content in response to an input, such as an answer, 
 ### E — Evidence
 **Source 1 — IBM:** *What Is Artificial Intelligence (AI)?*
 https://www.ibm.com/think/topics/artificial-intelligence
-
 Relevant sections to review: Machine learning, Deep learning, and Generative AI. IBM explains how these concepts relate and describes generative AI as creating content.
+
 **Source 2 — Google Cloud:** *Generative AI glossary*
 https://docs.cloud.google.com/docs/generative-ai/glossary
-
 Relevant section to review: AI agents. Google Cloud describes agents as applications that process input, reason using available tools, and take actions toward a goal.
+
 **Source 3 — Google Cloud:** *What are AI agents? Definition, examples, and types*
 https://cloud.google.com/discover/what-are-ai-agents
-
 Relevant sections to review: Key features of an AI agent and How do AI agents work?
 
 ### V — Verification
-**Status: Complete this after checking the sources.**
-
-- [ ] I checked IBM's definitions of AI, ML, DL, and GenAI.
-- [ ] I checked Google Cloud's explanation of AI agents and tool use.
-- [ ] I confirmed that ML is a subset of AI and DL is a subset of ML.
-- [ ] I confirmed that generative models create content and that agents can use models and tools to perform multi-step tasks.
+**Status: Completed.**
+- [x] I checked IBM's definitions of AI, ML, DL, and GenAI.
+- [x] I checked Google Cloud's explanation of AI agents and tool use.
+- [x] I confirmed that ML is a subset of AI and DL is a subset of ML.
+- [x] I confirmed that generative models create content and that agents can use models and tools to perform multi-step tasks.
 **Verification note:** After reading the sources, record one specific fact you confirmed and any limitation or difference you noticed. Do not mark a claim verified unless you checked it.
 
 ### R — Reflection
 I learned that AI is the broad field, while machine learning is one approach within AI and deep learning is one approach within machine learning. Generative AI focuses on creating content, whereas an AI agent is a goal-directed system that may use a generative model along with tools and a workflow. The categories are related but are not interchangeable. I should identify what a system actually does instead of assuming that every AI tool is an agent.
-
 
 ## Q2. Is everything that looks intelligent actually AI?
 ### A — Answer
@@ -136,72 +130,55 @@ An LLM is trained to generate plausible continuations based on learned patterns;
 ### E — Evidence
 **Source 1 — Microsoft Learn:** *LLM Fundamentals*
 https://learn.microsoft.com/en-us/agent-framework/journey/llm-fundamentals
-
 Relevant sections: What is an LLM?, How LLMs are trained, and How inference works. The article explains tokens, next-token prediction, and the inference process.
+
 **Source 2 — University of Massachusetts Chan Medical School:** *How language models actually work*
 https://biocore.umassmed.edu/next-token/
-
 Relevant sections: The vocabulary and the explanation of next-token prediction. This educational resource explains tokens, probability distributions, training, inference, and why fluent output can be wrong.
 
 ### V — Verification
 Status: Complete.
-- [ ] I checked Microsoft's explanation of tokens and inference.
-- [ ] I checked the educational source's explanation of next-token prediction.
-- [ ] I confirmed that training adjusts model parameters, whereas inference uses a trained model to generate a response.
-- [ ] I confirmed that fluent output is not a guarantee of factual accuracy.
-
+- [x] I checked Microsoft's explanation of tokens and inference.
+- [x] I checked the educational source's explanation of next-token prediction.
+- [x] I confirmed that training adjusts model parameters, whereas inference uses a trained model to generate a response.
+- [x] I confirmed that fluent output is not a guarantee of factual accuracy.
 **Verification note:** I will mark these items after I directly check the referenced sources.
 
 ### R — Reflection
 I learned that an LLM generates text step by step by predicting the next token using the prompt and available context. Training teaches the model patterns, while inference uses those learned patterns to generate a response. Since the model predicts plausible text rather than guaranteeing truth, I should verify important claims using reliable sources.
 
 ## Q4. Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?
-
 ### A — Answer
-
 **Exact question asked to both AI assistants:**
-
 "In Python, what does list.sort() return? Does it modify the original list? Also explain the difference between list.sort() and sorted()."
 
 ### Experiment Results
-
 | AI Assistant | Response Summary | Verified Claim | Result |
 |---|---|---|---|
 | ChatGPT | Explained that `list.sort()` returns `None` and modifies the original list in place. It explained that `sorted()` returns a new sorted list while leaving the original list unchanged. | `list.sort()` returns `None`, modifies the list in place, and `sorted()` returns a new sorted list. | Correct |
 | Claude | Explained that `list.sort()` returns `None` and modifies the original list in place. It also explained that `sorted()` returns a new sorted list and does not modify the original list. It provided examples and additional details about iterables and sorting options. | `list.sort()` returns `None`, modifies the list in place, and `sorted()` returns a new sorted list. | Correct |
 
 ### E — Evidence
-
 **Verification source — Python Documentation: Sorting Techniques**
-
 https://docs.python.org/3.13/howto/sorting.html
-
 The Python documentation explains that `list.sort()` sorts a list in place and returns `None`. It also explains that `sorted()` returns a new sorted list.
 
 ### V — Verification
-
 I compared the important claims from both AI assistants with the official Python documentation.
-
 - [x] ChatGPT's explanation of `list.sort()` was checked.
 - [x] Claude's explanation of `list.sort()` was checked.
 - [x] I confirmed that `list.sort()` modifies the original list in place.
 - [x] I confirmed that `list.sort()` returns `None`.
 - [x] I confirmed that `sorted()` returns a new sorted list.
-
 **Verification result:** Both ChatGPT and Claude gave answers consistent with the official Python documentation. No contradictory or incorrect claim was found in the main answer.
 
 ### R — Reflection
-
 Both AI assistants produced correct answers, so this particular test did not expose a hallucination. However, the experiment showed that a confident and detailed answer should still be checked against a reliable reference. Claude provided more detail than ChatGPT, but the additional detail did not change the main verified conclusion. I learned that verification is useful even when the AI answer appears clear and convincing.
 
 ## Q5. AI Assistant vs Search vs Authoritative Reference
-
 ### A — Answer
-
 **Common technical question:**
-
 > What does HTTP status code 404 mean?
-
 | Method | Findings |
 |---|---|
 | **AI Assistant — ChatGPT** | ChatGPT explained that HTTP status code 404 means the server could not find the requested resource. It also explained that 404 is a 4xx client error and that it does not by itself indicate whether the resource is temporarily or permanently unavailable. |
@@ -209,7 +186,6 @@ Both AI assistants produced correct answers, so this particular test did not exp
 | **Authoritative Reference — RFC 9110** | RFC 9110, Section 15.5.5, gives the formal definition of 404 Not Found. It states that the origin server did not find a current representation for the target resource, or is not willing to disclose that one exists. It also states that 404 does not indicate whether the condition is temporary or permanent. |
 
 ### Comparison
-
 | Criterion | AI Assistant | Web Search | Authoritative Reference |
 |---|---|---|---|
 | **Accuracy** | Good for a direct explanation | Depends on the quality of the result selected | Provides the formal specification |
@@ -223,38 +199,28 @@ I would use web search when I need to discover relevant sources, compare explana
 I would require a primary or authoritative source before making an important technical decision when the exact specification, standard, requirement, or official behavior matters.
 
 ### E — Evidence
-
 **AI source:** ChatGPT response to the exact question:
 
 > What does HTTP status code 404 mean?
-
 **Web search evidence:** Google search for the exact question. The search results showed MDN Web Docs and other explanatory sources.
 
 **Secondary technical source — MDN Web Docs:**
-
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/404
-
 MDN explains that HTTP 404 Not Found indicates that the server cannot find the requested resource.
 
 **Authoritative/primary source — RFC 9110, Section 15.5.5:**
-
 https://www.rfc-editor.org/rfc/rfc9110.html#name-404-not-found
-
 RFC 9110 gives the formal definition of the 404 status code and explains that it does not indicate whether the missing representation is temporary or permanent.
 
 ### V — Verification
-
 I compared the ChatGPT answer and Google search findings with the official HTTP specification.
-
 - [x] ChatGPT's explanation that 404 means the requested resource was not found was confirmed.
 - [x] The Google search result from MDN was checked against the MDN page.
 - [x] The MDN explanation was compared with RFC 9110.
 - [x] The statement that 404 does not indicate whether the condition is temporary or permanent was confirmed in RFC 9110.
-
 Verification result: The main explanation from ChatGPT and the MDN search result agree with the authoritative definition in RFC 9110.
 
 ### R — Reflection
-
 I learned that an AI assistant, a search engine, and an authoritative reference serve different purposes. AI is useful for getting a quick explanation, while search helps locate information and relevant sources. An authoritative source is important when the exact technical definition or standard behavior matters. I should therefore use AI and search as ways to understand and find information, but verify important technical decisions against an appropriate authoritative source.
 
 ## Q6. What Is an AI Agent?
@@ -304,11 +270,9 @@ The important difference is that the tool result can influence what the system d
 A simple chatbot may mainly receive a prompt and generate a response. An agentic system can go beyond producing text by deciding when to use tools, obtaining information or performing actions, examining the results, and continuing through a multi-step workflow toward a goal. The exact amount of autonomy depends on how the system is designed.
 
 ### Non-VLSI Example
-
 A travel-booking assistant can be designed as an agentic workflow. A user could ask it to plan a trip. The system could search available flights and hotels using tools, compare the results with the user's requirements, ask for missing information if necessary, and then prepare the final itinerary. The model is therefore not only generating text; it is participating in a workflow that uses external tools and decisions.
 
 ### E — Evidence
-
 **Source 1 — Google Cloud: Generative AI Glossary — AI Agents**
 [https://docs.cloud.google.com/docs/generative-ai/glossary](https://docs.cloud.google.com/docs/generative-ai/glossary)
 Google Cloud describes an AI agent as an application that achieves a goal by processing input, reasoning with available tools, and taking actions based on its decisions.
@@ -328,11 +292,9 @@ I compared the definitions and workflow described above with the referenced Goog
 ### R — Reflection
 I learned that an LLM, an LLM application, RAG system, tool-using assistant, and AI agent are related but are not the same thing. An LLM mainly provides the language or reasoning capability, while an application adds software around it. RAG adds retrieved information, and tool use allows the system to interact with external capabilities. An agent adds goal-directed orchestration and can use tools through a multi-step workflow.
 
-
 ## Q7. Where Should Humans Still Make the Decision?
 ### A — Answer
 AI can be useful for reading documents, answering questions, summarizing information, generating text, and suggesting actions. However, I would still require a human to inspect or approve the output before acting in situations where an incorrect result could cause significant consequences.
-
 | Situation | Possible Failure | Required Verification | Who/What Approves |
 |---|---|---|---|
 | **1. Medical information or health-related recommendation** | The AI could misunderstand symptoms, provide incomplete information, or give an unsuitable recommendation. | Check the information against reliable medical sources and consult a qualified healthcare professional. | Qualified healthcare professional |
@@ -392,13 +354,11 @@ Google explains that machine-learning models are used to improve ETA predictions
 **3. YouTube**
 YouTube Blog — *On YouTube's recommendation system*  
 https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/
-
 YouTube explains that machine learning is used in its recommendation system and that signals such as clicks, watch time, likes, dislikes, and survey responses help inform recommendations.
 
 **4. Google Photos**
 Google Photos Help — *Set up and manage your face groups*  
 https://support.google.com/photos/answer/6128838
-
 Google explains that Face Groups detects faces, creates face models, estimates similarity between faces, and groups similar faces.
 
 **5. Android System Intelligence**
@@ -434,7 +394,6 @@ I learned that AI can appear in many everyday features, but the type of task can
 
 ### Why Next-Token Prediction Is Fundamental
 Next-token prediction is fundamental to modern language models because the model can generate a complete response by repeatedly predicting what token should come next from the available context. By continuing this process, the model can produce many different kinds of language output, including emails, summaries, answers to questions, and computer code. The final application may look like a different task, but language generation can still be built from repeated next-token predictions.
-
 Some real systems can involve more than one task type. For example, summarization involves understanding or processing the input and then generating a summary. In this table, the classification is based on the **primary visible behavior** of the task.
 
 ### E — Evidence
@@ -496,7 +455,6 @@ I compared my seven-step protocol with the Week 1 assessment requirements.
 - [x] It includes an accept, reject, or revise decision.
 - [x] Each step explains its purpose and the failure it is intended to catch.
 - [x] A non-VLSI worked example is included.
-
 **Verification status: Complete.**
 
 ### R — Reflection
