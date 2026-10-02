@@ -359,32 +359,169 @@ I checked each situation to make sure it includes:
 ### R — Reflection
 I learned that using AI does not remove human responsibility for important decisions. The level of checking should increase when an incorrect AI result could cause greater harm, loss, or other consequences. I should treat AI as a tool that supports my reasoning while keeping the final decision and accountability with a human.
 
-## Q8. Find AI around you
-
-### A — Answer and examples
-
-### E — Evidence
-
-### V — Verification
-
-### R — Reflection
-
-## Q9. Prediction vs Classification vs Generation
-
+## Q8. Find AI Around You
 ### A — Answer
+| System / Feature | AI/ML Involvement | Task Type | Evidence / Source | Conclusion |
+|---|---|---|---|---|
+| **1. Gmail Spam Filter** | Yes | Classification | Google explains that Gmail uses machine learning to predict which emails are likely to be spam. | AI/ML is involved in classifying messages as spam or not spam. |
+| **2. Google Maps ETA** | Yes | Prediction | Google explains that Maps uses machine-learning models, including Graph Neural Networks, to improve ETA predictions using traffic and historical patterns. | AI/ML is involved in predicting travel time. |
+| **3. YouTube Recommendations** | Yes | Recommendation / Prediction | YouTube explains that its recommendation system uses machine learning and signals such as clicks, watch time, likes, dislikes, and survey responses to recommend videos. | AI/ML is involved in selecting and ranking personalized recommendations. |
+| **4. Google Photos Face Groups** | Yes | Recognition / Classification | Google explains that Face Groups detects faces, creates face models, estimates similarity between faces, and groups photos that are likely to contain the same person. | AI/ML-style modeling is involved in recognizing and grouping similar faces. |
+| **5. Android System Intelligence – Now Playing** | Yes | Recognition | Google states that Android System Intelligence provides machine-learning features and includes Now Playing, which recognizes music around you. | AI/ML is involved in recognizing music. |
+
+### Simpler Rule-Based Alternative
+For **YouTube recommendations**, a simpler traditional approach could recommend videos using fixed rules such as:
+- show the most-viewed videos;
+- show videos from subscribed channels;
+- show videos from a selected category.
+This could produce recommendations, but it would be less personalized than a system that learns from signals such as viewing habits, watch time, likes, dislikes, and other feedback. YouTube explains that its earlier recommendation approach relied more heavily on popularity, while later systems used machine learning to personalize recommendations. Therefore, a simpler rule-based system could produce similar-looking behavior, but with less adaptive personalization.
 
 ### E — Evidence
+**1. Gmail**
+Google — *How machine learning in G Suite makes people more productive*  
+https://blog.google/products-and-platforms/products/workspace/how-machine-learning-g-suite-makes-people-more-productive/
+
+Google explains that Gmail uses machine learning to predict which emails are most likely to be spam. 
+
+**2. Google Maps**
+Google — *Google Maps 101: How AI helps predict traffic and determine routes*  
+https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/
+
+Google explains that machine-learning models are used to improve ETA predictions using traffic and historical patterns.
+
+**3. YouTube**
+YouTube Blog — *On YouTube's recommendation system*  
+https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/
+
+YouTube explains that machine learning is used in its recommendation system and that signals such as clicks, watch time, likes, dislikes, and survey responses help inform recommendations.
+
+**4. Google Photos**
+Google Photos Help — *Set up and manage your face groups*  
+https://support.google.com/photos/answer/6128838
+
+Google explains that Face Groups detects faces, creates face models, estimates similarity between faces, and groups similar faces.
+
+**5. Android System Intelligence**
+Google Pixel Help — *Android System Intelligence*  
+https://support.google.com/pixelphone/answer/12112173
+Google states that Android System Intelligence provides machine-learning features and lists Now Playing as a feature that recognizes music around you.
 
 ### V — Verification
+I checked the public documentation for each system rather than assuming that a feature is AI simply because it appears intelligent.
+- [x] Gmail documentation supports machine-learning-based spam detection.
+- [x] Google Maps documentation supports machine-learning-based ETA prediction.
+- [x] YouTube documentation supports machine-learning-based recommendations.
+- [x] Google Photos documentation supports face detection, face models, and face-similarity prediction.
+- [x] Android System Intelligence documentation identifies Now Playing as a machine-learning feature involving music recognition.
+- [x] I investigated a simpler rule-based approach for YouTube recommendations.
+**Verification status: Complete.**
 
 ### R — Reflection
+I learned that AI can appear in many everyday features, but the type of task can be different. Gmail mainly performs classification, Google Maps performs prediction, YouTube performs recommendation, and Google Photos and Now Playing perform recognition-related tasks. I also learned that a simpler rule-based system can sometimes produce similar behavior, but it may not adapt to user data and patterns as effectively as a learned system. I should check public evidence before claiming that a product feature uses AI.
 
-## Q10. Personal AI verification protocol
-
+## Q9. Prediction, Classification, and Generation
 ### A — Answer
+| Example | Primary Task Type | Reason |
+|---|---|---|
+| **A. Predicting house prices** | **Prediction** | The system estimates a numerical value, such as the expected price of a house, from available information. |
+| **B. Detecting whether an image contains a cat** | **Classification** | The system assigns the image to a category such as "cat present" or "cat not present." |
+| **C. Writing an email from a short instruction** | **Generation** | The system creates new text based on the instruction. |
+| **D. Predicting whether a customer will cancel a subscription** | **Prediction** | The system estimates the likelihood that a future event, such as cancellation, will occur. |
+| **E. Summarizing a research paper** | **Generation** | The system produces new text that represents the important information from the original paper. |
+| **F. Identifying whether a transaction is fraudulent** | **Classification** | The system assigns a transaction to a category such as fraudulent or legitimate. |
+| **G. Generating an image from a text description** | **Generation** | The system creates new image content from the supplied text description. |
+| **H. Predicting the next word/token in a sentence** | **Prediction** | The model estimates which token is most likely to come next based on the tokens already available. |
+
+### Why Next-Token Prediction Is Fundamental
+Next-token prediction is fundamental to modern language models because the model can generate a complete response by repeatedly predicting what token should come next from the available context. By continuing this process, the model can produce many different kinds of language output, including emails, summaries, answers to questions, and computer code. The final application may look like a different task, but language generation can still be built from repeated next-token predictions.
+
+Some real systems can involve more than one task type. For example, summarization involves understanding or processing the input and then generating a summary. In this table, the classification is based on the **primary visible behavior** of the task.
 
 ### E — Evidence
+The Week 1 guide defines prediction, classification, and generation as broad AI task types and specifically includes the eight examples above. It also asks for an explanation of why next-token prediction is fundamental to modern language models.
 
 ### V — Verification
+I checked each example against the basic distinction between prediction, classification, and generation.
+- [x] House-price and customer-cancellation examples estimate an outcome or value, so they are prediction tasks.
+- [x] Cat detection and fraud detection assign examples to categories, so they are classification tasks.
+- [x] Email writing, research-paper summarization, and text-to-image generation create new output, so they are generation tasks.
+- [x] Next-token prediction is a prediction task and can be repeated to generate longer language output.
+**Verification status: Complete.**
 
 ### R — Reflection
+I learned that prediction, classification, and generation describe different kinds of AI behavior. Classification assigns an input to a category, prediction estimates a value or outcome, and generation produces new content. I also learned that the final application can look more complex than the underlying task, and that many language applications can be built from repeated next-token prediction.
+
+## Q10. Design Your Personal AI Verification Protocol
+### A — Answer
+My seven-step procedure for checking an AI-generated result before accepting it for engineering work is:
+**1. Define the problem**  
+Clearly state what needs to be solved, what the expected result is, and what constraints apply.  
+**Why:** This helps prevent the AI from solving the wrong problem or producing an answer that does not match the actual requirement.
+
+**2. Inspect the assumptions**  
+Identify the assumptions made by the AI and check whether they are reasonable and relevant to the problem.  
+**Why:** An incorrect or hidden assumption can make the final result wrong even when the reasoning looks convincing.
+
+**3. Check the evidence and sources**  
+Identify important factual or technical claims and check them against reliable documentation, references, or other appropriate evidence.  
+**Why:** This catches unsupported claims and prevents treating AI output itself as proof.
+
+**4. Test the result**  
+Use calculations, examples, experiments, or other suitable tests to check whether the result behaves as expected.  
+**Why:** Testing can reveal errors that are not obvious from reading the answer.
+
+**5. Compare with an independent result**  
+Compare the AI-generated result with a trusted reference, known result, or an independently worked-out solution.  
+**Why:** Independent comparison can reveal mistakes or missing information.
+
+**6. Check limitations and uncertainty**  
+Identify anything that is unclear, unsupported, or dependent on assumptions.  
+**Why:** This prevents uncertain information from being treated as a confirmed result.
+
+**7. Decide whether to accept, reject, or revise**  
+Based on the checks above, decide whether the output can be accepted, should be rejected, or needs revision and further verification.  
+**Why:** The final decision remains a human engineering judgment rather than an automatic acceptance of the AI output.
+
+### E — Evidence
+The Week 1 guide requires a seven-step procedure and specifically says the protocol must include defining the problem, inspecting assumptions, checking evidence/source, testing the result, and deciding whether to accept, reject, or revise the output.
+The Week 1 workflow also emphasizes defining, investigating, inspecting, verifying, concluding, documenting, and reflecting before accepting an AI result.
+
+### V — Verification
+I compared my seven-step protocol with the Week 1 assessment requirements.
+- [x] The protocol contains seven steps.
+- [x] It defines the problem.
+- [x] It inspects assumptions.
+- [x] It checks evidence and sources.
+- [x] It tests the result.
+- [x] It includes an accept, reject, or revise decision.
+- [x] Each step explains its purpose and the failure it is intended to catch.
+- [x] A non-VLSI worked example is included.
+
+**Verification status: Complete.**
+
+### R — Reflection
+I learned that verifying an AI result is not just checking whether the final answer looks correct. I need to understand the problem, inspect the assumptions, check the evidence, test the result, and make a final human judgment. This protocol can be improved later in the program as I learn more about AI-assisted engineering.
+
+### Worked Example — Non-VLSI Task
+Suppose I ask an AI assistant to calculate the total cost of a purchase after applying discounts.
+
+**1. Define the problem:**  
+I provide the prices, quantities, discounts, and any tax or shipping requirements.
+
+**2. Inspect the assumptions:**  
+I check whether the AI assumed that the discount applies before or after tax and whether the quantities are correct.
+
+**3. Check the evidence and sources:**  
+I verify the prices and discount values against the information provided by the seller.
+
+**4. Test the result:**  
+I calculate the total independently.
+
+**5. Compare with an independent result:**  
+I compare my calculation with the AI-generated total.
+
+**6. Check limitations and uncertainty:**  
+I check whether any required information, such as tax or shipping charges, is missing.
+
+**7. Accept, reject, or revise:**  
+If the calculation is correct and the assumptions are valid, I accept it. If there is an error, I revise the inputs or reject the result and calculate it again.
