@@ -111,24 +111,24 @@ When a user submits a prompt, the language model processes the input along with 
 **Training** is when the model learns patterns by adjusting its internal parameters using training data. **Inference** is when the already-trained model processes a prompt and generates an output. In ordinary inference, the model's learned parameters are not updated for every question asked.
 
 ### Flow Diagram
+
 User submits a prompt
-          ↓
+        ↓
 Text is split into tokens
-          ↓
+        ↓
 Tokens + available context
-          ↓
+        ↓
 Model processes the input
-(using learned patterns and attention)
-          ↓
-Probability distribution over next tokens
-          ↓
+        ↓
+Probability distribution over possible next tokens
+        ↓
 Select one next token
-          ↓
+        ↓
 Append token to the sequence
-          ↓
+        ↓
 More text needed?
-     ↙ Yes       No ↘
-Process again    Generated response
+   ↓ Yes        ↓ No
+Process again   Generated response
 
 ### Why fluent text can still be false
 An LLM is trained to generate plausible continuations based on learned patterns; fluency does not guarantee that a statement is factually correct. If its learned patterns or available context do not support the correct answer, it may generate an incorrect claim or invent details. A model can therefore produce confident-sounding text without reliable evidence. Important factual claims should be checked against trustworthy sources.
@@ -144,7 +144,7 @@ https://biocore.umassmed.edu/next-token/
 Relevant sections: The vocabulary and the explanation of next-token prediction. This educational resource explains tokens, probability distributions, training, inference, and why fluent output can be wrong.
 
 ### V — Verification
-**Status: Complete after checking the sources.**
+Status: Pending direct source review.
 - [ ] I checked Microsoft's explanation of tokens and inference.
 - [ ] I checked the educational source's explanation of next-token prediction.
 - [ ] I confirmed that training adjusts model parameters, whereas inference uses a trained model to generate a response.
