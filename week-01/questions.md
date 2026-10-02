@@ -266,6 +266,7 @@ I learned that an AI assistant, a search engine, and an authoritative reference 
 | **RAG System**           | Retrieval-Augmented Generation (RAG) is a system that retrieves relevant information from an external source, such as documents or a database, and provides that information as context to the LLM before generating a response. |
 | **Tool-using Assistant** | A tool-using assistant is an AI application that can call external tools or services, such as calculators, search systems, APIs, or databases, to obtain information or perform an operation.                                    |
 | **AI Agent**             | An AI agent is a system that uses a model together with tools and orchestration to pursue a goal, decide what actions or tools are needed, use their results, and continue through a workflow until it can produce a result.     |
+
 RAG adds retrieved information to the LLM's context, while an agent can use tools and make decisions about actions as part of a multi-step workflow.
 
 ### Comparison
