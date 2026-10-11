@@ -2,9 +2,9 @@
 
 ## Common Question
 In Python, what does `list.sort()` return? Does it modify the original list? Also explain the difference between `list.sort()` and `sorted()`.
+
 ## Tool 1
 
-**Name:** ChatGPT
 **Name:** ChatGPT
 
 **Answer Summary:** ChatGPT explained that `list.sort()` returns `None` and modifies the original list in place. It also explained that `sorted()` returns a new sorted list while leaving the original list unchanged.
@@ -16,6 +16,7 @@ In Python, what does `list.sort()` return? Does it modify the original list? Als
 ## Tool 2
 
 **Name:** Claude
+
 **Answer Summary:** Claude explained that `list.sort()` returns `None` and modifies the original list in place. It explained that `sorted()` returns a new sorted list without modifying the original list. It also provided examples and additional information about iterables and sorting options.
 
 **Strengths:** More detailed explanation with multiple examples and a comparison table.
