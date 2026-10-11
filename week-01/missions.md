@@ -11,9 +11,10 @@
 ## Evidence and Verification
 
 **Chosen example: Email spam filter**
-I chose the email spam filter to investigate whether AI/ML is actually involved. Spam filters can use machine-learning techniques to identify patterns associated with unwanted messages. I should verify this using documentation from the email provider I actually use.
+I investigated whether machine learning is involved in Gmail's spam filtering. Google's official Workspace blog explains that Gmail uses machine learning to help identify spam patterns.
+**Verification source:** [Google Workspace — An overview of Gmail's spam filters](https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters)
 
-**Verification source:** [Google Gmail — How Gmail handles spam](https://support.google.com/mail/answer/1366858)
+**Result:** This supports the claim that machine learning is used in Gmail's spam filtering. Gmail also uses other security signals and protections.
 
 ## Could Rules Alone Produce Similar Behaviour?
 Yes, a rule-based program could detect some spam using fixed conditions, such as blocking messages from a particular address or flagging specific words. However, spam changes frequently, and machine-learning methods can identify more complex patterns. Rules may still be used alongside machine learning.
@@ -33,6 +34,7 @@ AI-powered features are present in everyday systems. Recommendations, face verif
 | Generative AI (GenAI) | GenAI is AI that creates new content, such as text, images, audio, or code. | An AI assistant generating a summary of a document. |
 
 ## 2. Relationship Diagram
+
 ```text
 Artificial Intelligence (AI)
 └── Machine Learning (ML)
@@ -41,7 +43,8 @@ Artificial Intelligence (AI)
 Generative AI (GenAI)
 └── Creates new content and commonly uses deep-learning models
 ```
-**Note:** AI is the broad field, ML is a subset of AI, and DL is a subset of ML. Generative AI describes systems that create new content and commonly uses deep learning, but the terms represent different concepts.
+
+**Note:** AI is the broad field, ML is a subset of AI, and DL is a subset of ML. Generative AI describes systems that create new content. Many modern generative AI systems use deep-learning models, but Generative AI is a category based on what a system does, while deep learning describes a type of model.
 
 ## 3. AI Assistant Review
 I asked an AI assistant to review the diagram and explanations. The main relationship—ML as a part of AI and DL as a part of ML—is correct. I also noted that generative AI is not strictly a subset of deep learning in every possible case, so the diagram is a simplified view of common modern AI systems.
@@ -57,7 +60,7 @@ I learned that AI is the broad field, machine learning allows systems to learn p
 |---|---|---|
 | Calculator | Rule-based / traditional software | It follows programmed arithmetic operations to calculate results. |
 | Temperature warning rule | Rule-based / traditional software | It compares the temperature with a fixed threshold and triggers a warning. |
-| Spam filter | ML-based AI | It can learn patterns from examples to identify unwanted emails. |
+| Machine-learning spam filter | ML-based AI | It learns patterns from examples to identify unwanted emails. |
 | Document summariser | Generative AI | It generates a shorter version of a document while preserving important information. |
 | Traffic ETA prediction | ML-based AI | It can use historical and current traffic data to predict travel time. |
 
@@ -116,7 +119,11 @@ I learned that an LLM generates text incrementally using tokens and patterns lea
 RAM is temporary memory used by a computer to hold data and programs that are currently in use. Storage, such as an SSD or HDD, keeps files, applications, and the operating system even when the computer is turned off. RAM is generally faster than storage, but storage usually provides much more capacity.
 
 ## 3. Verification
-**Verification result:** The source confirms that RAM is working memory used while programs are running, while SSDs and HDDs provide storage that retains data when the computer is powered off. The main distinction in the AI answer is accurate.
+**Claim checked:** RAM is temporary working memory, while storage retains data when the computer is powered off.
+
+**Source used:** [Crucial — What Is Computer Memory (RAM)?](https://www.crucial.com/articles/about-memory/support-what-is-computer-memory)
+
+**Verification result:** The source confirms the distinction between RAM and storage. The main distinction in the AI answer is accurate.
 
 ## 4. What I Learned
 I learned that an AI-generated answer should not be accepted without checking it. Comparing the answer with a reliable source helped me confirm whether the information was accurate.
