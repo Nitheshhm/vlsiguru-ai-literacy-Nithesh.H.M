@@ -33,12 +33,16 @@ AI-powered features are present in everyday systems. Recommendations, face verif
 | Generative AI (GenAI) | GenAI is AI that creates new content, such as text, images, audio, or code. | An AI assistant generating a summary of a document. |
 
 ## 2. Relationship Diagram
+## 2. Relationship Diagram
+```text
 Artificial Intelligence (AI)
 └── Machine Learning (ML)
     └── Deep Learning (DL)
+
 Generative AI (GenAI)
 └── Creates new content and commonly uses deep-learning models
-Note: AI is the broad field, ML is a subset of AI, and DL is a subset of ML. Generative AI describes systems that create new content and commonly uses deep learning, but the terms represent different concepts.
+```
+**Note:** AI is the broad field, ML is a subset of AI, and DL is a subset of ML. Generative AI describes systems that create new content and commonly uses deep learning, but the terms represent different concepts.
 
 ## 3. AI Assistant Review
 I asked an AI assistant to review the diagram and explanations. The main relationship—ML as a part of AI and DL as a part of ML—is correct. I also noted that generative AI is not strictly a subset of deep learning in every possible case, so the diagram is a simplified view of common modern AI systems.
@@ -71,5 +75,36 @@ I classify this as recommendation-based AI when the recommendations use machine-
 ## Conclusion
 I learned that a system is not automatically AI just because it performs a useful or intelligent-looking task. Simple rule-based software can solve many problems, while machine learning can identify patterns from data. Understanding how a system works is important before classifying it as AI.
 
+# Mission 4 — Make AI Explain Itself, Then Test It
+
+## 1. Questions Asked
+
+**Question 1:** Explain how a Large Language Model (LLM) produces an answer to my prompt.
+**Question 2:** Now explain it to me as a beginner using a simple example.
+
+## 2. My Final Explanation
+A Large Language Model (LLM) is an AI model trained on large amounts of data to learn patterns in language. When I enter a prompt, the text is processed into smaller units called tokens. The model uses the context and patterns it learned during training to predict and generate the next token. It repeats this process until it produces a complete response or reaches a stopping condition.
+For example, if I enter “The sun rises in the…”, the model may predict “east” as a likely next word. It continues generating tokens based on the prompt and the text already produced. This is how an LLM can generate explanations, summaries, and other text.
+
+## 3. Verification of Important Claims
+
+**Claim 1:** LLMs process text as tokens.
+**Verification:** OpenAI's documentation explains that text is divided into tokens before being processed by a model.
+**Source:** [OpenAI — Understanding and counting tokens](https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens)
+**Result:** Verified.
+
+**Claim 2:** LLMs generate text by predicting the next token repeatedly.
+**Verification:** OpenAI's explanation of ChatGPT's development describes how models learn patterns from training data and use them to predict the next word or token when generating a response.
+**Source:** [OpenAI — How ChatGPT and our foundation models are developed](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed)
+**Result:** Verified.
+
+## 4. What AI Explained Well
+The AI explained the basic process of tokenisation and next-token prediction in an understandable way. The simple sentence example helped me understand how a response is generated step by step.
+
+## 5. What I Clarified or Corrected
+I clarified that an LLM does not simply search for and copy a complete answer from a stored collection. It generates text using learned patterns and the current context. However, generated answers can still contain errors, so important claims must be checked independently.
+
+## 6. Conclusion
+I learned that an LLM generates text incrementally using tokens and patterns learned during training. Its response can sound convincing without necessarily being correct, so understanding the process and verifying important claims are both necessary.
 
 
