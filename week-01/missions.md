@@ -33,7 +33,6 @@ AI-powered features are present in everyday systems. Recommendations, face verif
 | Generative AI (GenAI) | GenAI is AI that creates new content, such as text, images, audio, or code. | An AI assistant generating a summary of a document. |
 
 ## 2. Relationship Diagram
-## 2. Relationship Diagram
 ```text
 Artificial Intelligence (AI)
 └── Machine Learning (ML)
@@ -183,3 +182,54 @@ An AI agent can coordinate multiple steps toward a goal. However, not every chat
 ## 5. Conclusion
 Understanding the difference between a model, an application, RAG, tool use, and an AI agent helps me understand how practical AI systems are designed. This mission helped me see that useful AI systems can combine models, information sources, and tools to complete tasks.
 
+# Mission 7 — AI Hardware and Compute
+
+## 1. Important Concepts
+| Concept | Explanation | Example |
+|---|---|---|
+| CPU (Central Processing Unit) | A general-purpose processor that executes instructions and manages many system tasks. | Running an operating system and coordinating program execution. |
+| GPU (Graphics Processing Unit) | A processor designed to perform many operations in parallel, making it useful for graphics and AI workloads. | Training a deep-learning model using many parallel calculations. |
+| NPU / AI Accelerator | Specialised hardware designed to accelerate certain AI computations efficiently. | An NPU performing AI tasks on a laptop or smartphone. |
+| Parallel Computation | Performing multiple calculations at the same time rather than executing every calculation sequentially. | A GPU processing many matrix operations in parallel. |
+| Compute and Memory | Compute refers to processing operations, while memory stores the data and model parameters needed for those operations. | An AI model needs both processing power and memory to run efficiently. |
+| Training vs Inference | Training adjusts a model's parameters using data; inference uses a trained model to produce predictions or responses. | Training a model on examples versus using it to classify a new image. |
+
+## 2. Hardware and Software Diagram
+```text
+AI Application
+      |
+      v
+AI Model
+      |
+      v
+Software / Framework
+      |
+      v
+CPU / GPU / AI Accelerator
+      |
+      v
+Memory
+```
+**Explanation:** The AI application uses a model, while software and frameworks help execute the model's operations. The CPU, GPU, or specialised accelerator performs the computations and uses memory to access model parameters and other data. The exact arrangement depends on the system and workload.
+
+## 3. Real-World Workload Example
+**Workload:** Running an image-recognition model.
+
+- **AI application:** A photo app that identifies objects in an image.
+- **AI model:** A trained neural network that recognises objects.
+- **Software/framework:** Software loads the model and schedules its operations.
+- **Hardware:** The CPU may coordinate the task, while a GPU or NPU can accelerate supported calculations.
+- **Memory:** Stores the model parameters, input image, and intermediate data.
+- **Inference:** The trained model processes a new image and returns predicted labels.
+
+A GPU can be useful because image-recognition models often involve many mathematical operations that can be performed in parallel. However, the best hardware depends on the model, software support, memory requirements, and performance or power constraints.
+
+## 4. Training vs Inference
+**Training:** The model learns from examples by adjusting its parameters. Training can require substantial compute and memory resources.
+**Inference:** The trained model processes new inputs to generate predictions or responses. Inference also needs compute and memory, but its requirements depend on the model size, input, and workload.
+
+## 5. What I Learned
+I learned that AI performance depends on more than the model alone. CPUs, GPUs, accelerators, software, and memory all contribute to executing AI workloads. Parallel computation can speed up suitable tasks, while insufficient memory or limited hardware support can affect performance.
+
+## 6. Conclusion
+Understanding AI hardware helps explain why different workloads benefit from different processors. Training and inference have different goals, and choosing suitable hardware depends on the computational workload, memory needs, software support, and efficiency requirements.
