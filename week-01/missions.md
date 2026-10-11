@@ -80,6 +80,7 @@ I learned that a system is not automatically AI just because it performs a usefu
 ## 1. Questions Asked
 
 **Question 1:** Explain how a Large Language Model (LLM) produces an answer to my prompt.
+
 **Question 2:** Now explain it to me as a beginner using a simple example.
 
 ## 2. My Final Explanation
@@ -107,4 +108,22 @@ I clarified that an LLM does not simply search for and copy a complete answer fr
 ## 6. Conclusion
 I learned that an LLM generates text incrementally using tokens and patterns learned during training. Its response can sound convincing without necessarily being correct, so understanding the process and verifying important claims are both necessary.
 
+# Mission 5 — Verify an AI Answer
 
+## 1. Question Asked
+**Question:** What is the difference between RAM and storage in a computer?
+
+## 2. AI Answer
+RAM is temporary memory used by a computer to hold data and programs that are currently in use. Storage, such as an SSD or HDD, keeps files, applications, and the operating system even when the computer is turned off. RAM is generally faster than storage, but storage usually provides much more capacity.
+
+## 3. Verification
+
+**Source used:** [Crucial — What Is Computer Memory (RAM)?](https://www.crucial.com/articles/about-memory/support-what-is-computer-memory)
+**Claim checked:** RAM is temporary working memory, while storage keeps data for long-term use.
+**Verification result:** The explanation is consistent with the source. RAM holds data needed for current tasks, while storage retains data when the computer is powered off.
+
+## 4. What I Learned
+I learned that an AI-generated answer should not be accepted without checking it. Comparing the answer with a reliable source helped me confirm whether the information was accurate.
+
+## 5. Lesson
+AI can provide a useful starting point, but independent verification is important. I should check important facts using reliable sources before relying on them or including them in my work.
