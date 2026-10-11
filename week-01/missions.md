@@ -233,3 +233,39 @@ I learned that AI performance depends on more than the model alone. CPUs, GPUs, 
 
 ## 6. Conclusion
 Understanding AI hardware helps explain why different workloads benefit from different processors. Training and inference have different goals, and choosing suitable hardware depends on the computational workload, memory needs, software support, and efficiency requirements.
+
+# Mission 8 — AI in My Track: Physical Design (PD)
+
+## 1. Selected Task
+**Task:** Physical Design timing analysis and timing-violation debugging.
+
+In VLSI Physical Design, timing analysis checks whether signals travel through a circuit within the required timing limits. Timing violations can occur because of long signal paths, excessive delays, congestion, or other design constraints.
+
+## 2. How AI Could Help
+AI could assist engineers by analysing timing reports, identifying recurring patterns in timing violations, and ranking paths that may need attention first. It could also help summarise large reports and suggest possible areas to investigate, such as cell delay, net delay, fanout, or congestion.
+For example, an AI-assisted tool could examine timing reports from a design and group similar failing paths so that an engineer can investigate common causes more efficiently.
+
+## 3. Why Domain Knowledge Still Matters
+AI suggestions must be checked against the actual design, timing constraints, and implementation results. An engineer needs Physical Design knowledge to understand setup and hold timing, slack, cell and net delays, placement, routing, and design constraints.
+A suggested optimisation may improve one timing path but create problems elsewhere, such as increased area, power consumption, congestion, or new timing violations. Therefore, AI should support engineering analysis rather than replace engineering judgement.
+
+## 4. Benefits and Limitations
+**Potential benefits:**
+- Faster analysis of large timing reports.
+- Identification of repeated patterns in failing paths.
+- Prioritisation of paths for further investigation.
+- Assistance in documenting and explaining possible causes.
+
+**Limitations:**
+- AI may misunderstand design-specific constraints.
+- Recommendations may not produce better results after implementation.
+- Proprietary design data must be handled according to confidentiality rules.
+- Final decisions require validation using appropriate EDA tools and design checks.
+
+## 5. What I Learned
+I learned that AI could help Physical Design engineers analyse reports and prioritise debugging tasks. However, successful optimisation requires knowledge of circuit timing, implementation constraints, and the trade-offs between performance, power, and area.
+
+## 6. Conclusion
+AI can be a useful assistant in VLSI Physical Design, particularly for report analysis and timing-violation debugging. It cannot independently guarantee a correct design or improved results. Engineers must evaluate suggestions and verify them using the actual design flow and EDA tools.
+
+
