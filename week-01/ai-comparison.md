@@ -18,7 +18,9 @@ In Python, what does `list.sort()` return? Does it modify the original list? Als
 
 ## Verification Source
 **Python Documentation — Sorting Techniques**
+
 https://docs.python.org/3.13/howto/sorting.html
+
 The official Python documentation confirms that `list.sort()` sorts a list in place, while `sorted()` returns a new sorted list. The behavior of `list.sort()` returning `None` is also documented in the Python standard library reference.
 
 ## Final Comparison
