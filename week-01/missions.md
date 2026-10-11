@@ -268,4 +268,34 @@ I learned that AI could help Physical Design engineers analyse reports and prior
 ## 6. Conclusion
 AI can be a useful assistant in VLSI Physical Design, particularly for report analysis and timing-violation debugging. It cannot independently guarantee a correct design or improved results. Engineers must evaluate suggestions and verify them using the actual design flow and EDA tools.
 
+# Mission 9 — My Personal AI Rules
 
+## 1. My Five Rules for Using AI
+
+### Rule 1: Verify Important Information
+I will verify important facts, technical explanations, and claims using reliable sources instead of accepting AI-generated answers without checking them.
+
+### Rule 2: Protect Confidential Information
+I will not enter confidential, proprietary, or restricted information into AI tools without proper authorisation. This is especially important for VLSI designs, timing reports, and company data.
+
+### Rule 3: Take Responsibility for My Work
+I will review, understand, and take responsibility for any AI-assisted work I submit. I will not submit an answer that I cannot explain or defend myself.
+
+### Rule 4: Use AI as a Learning Assistant
+I will use AI to understand difficult concepts, explore possible solutions, and improve my skills. I will try to understand the reasoning instead of blindly copying the output.
+
+### Rule 5: Be Honest About AI Assistance
+I will follow my course or organisation's rules for AI use and disclose AI assistance when required. I will not present AI-generated work as entirely my own if that would be misleading.
+
+## 2. Why One Rule Matters to Me
+
+**Rule chosen: Verify Important Information.**
+
+In Mission 4, I learned how an LLM generates responses using patterns learned during training and the context of a prompt. A response can sound convincing even when it contains errors.
+
+In Mission 5, I compared an AI-generated explanation of RAM and storage with an external source. This helped me understand the importance of checking claims instead of relying only on the AI answer.
+
+Therefore, I will verify important technical information before using it in assignments or practical work.
+
+## 3. Conclusion
+My personal rules are to verify information, protect confidential data, take responsibility for my work, use AI to learn, and be honest about AI assistance. These rules will help me use AI responsibly throughout my AI Literacy course and my future work in Physical Design.
