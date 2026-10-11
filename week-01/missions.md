@@ -103,7 +103,7 @@ For example, if I enter “The sun rises in the…”, the model may predict “
 The AI explained the basic process of tokenisation and next-token prediction in an understandable way. The simple sentence example helped me understand how a response is generated step by step.
 
 ## 5. What I Clarified or Corrected
-I clarified that an LLM does not simply search for and copy a complete answer from a stored collection. It generates text using learned patterns and the current context. However, generated answers can still contain errors, so important claims must be checked independently.
+I clarified that an LLM generally generates a response using patterns learned during training and the context of the current prompt, rather than simply retrieving a complete answer from a database. However, models can sometimes reproduce memorized text, and their generated answers can contain errors. Therefore, important claims should be checked independently.
 
 ## 6. Conclusion
 I learned that an LLM generates text incrementally using tokens and patterns learned during training. Its response can sound convincing without necessarily being correct, so understanding the process and verifying important claims are both necessary.
@@ -117,13 +117,69 @@ I learned that an LLM generates text incrementally using tokens and patterns lea
 RAM is temporary memory used by a computer to hold data and programs that are currently in use. Storage, such as an SSD or HDD, keeps files, applications, and the operating system even when the computer is turned off. RAM is generally faster than storage, but storage usually provides much more capacity.
 
 ## 3. Verification
-
-**Source used:** [Crucial — What Is Computer Memory (RAM)?](https://www.crucial.com/articles/about-memory/support-what-is-computer-memory)
-**Claim checked:** RAM is temporary working memory, while storage keeps data for long-term use.
-**Verification result:** The explanation is consistent with the source. RAM holds data needed for current tasks, while storage retains data when the computer is powered off.
+**Verification result:** The source confirms that RAM is working memory used while programs are running, while SSDs and HDDs provide storage that retains data when the computer is powered off. The main distinction in the AI answer is accurate.
 
 ## 4. What I Learned
 I learned that an AI-generated answer should not be accepted without checking it. Comparing the answer with a reliable source helped me confirm whether the information was accurate.
 
 ## 5. Lesson
 AI can provide a useful starting point, but independent verification is important. I should check important facts using reliable sources before relying on them or including them in my work.
+
+# Mission 6 — Understanding AI Systems and Agents
+
+## 1. Important Concepts
+
+| Concept | Explanation | Example |
+|---|---|---|
+| Large Language Model (LLM) | An AI model trained to understand and generate language by learning patterns from text and other data. | ChatGPT generating an explanation. |
+| AI Application | Software that uses an AI model to perform a useful task for a user. | An AI chatbot that answers questions. |
+| Retrieval-Augmented Generation (RAG) | A method that retrieves relevant information from external sources and provides it to an AI model to help generate a grounded answer. | A chatbot answering questions using uploaded PDFs. |
+| Tool-Using Assistant | An AI assistant that can use external tools to perform tasks or obtain information. | An assistant using a calculator to solve a calculation. |
+| AI Agent | An AI system that can work toward a goal by selecting actions, using tools, and responding to results, sometimes across multiple steps. | An assistant that searches for information, compares options, and prepares a plan. |
+
+## 2. System Diagram
+```text
+User
+  |
+  v
+AI Application
+  |
+  v
+LLM / AI Model
+  |
+  v
+Tool or Retrieval System
+  |
+  v
+Result returned to the model
+  |
+  v
+Response or Action
+  |
+  v
+User
+```
+**Explanation:** The user provides a request through an AI application. The application sends relevant input to the model. When needed, the system retrieves information or uses a tool. The result can be sent back to the model to help produce a response or guide an action.
+
+Not every AI application uses retrieval or tools. A basic chatbot may generate a response directly from the user's prompt.
+
+## 3. Everyday Example of an Agentic Workflow
+
+**Task:** Plan a weekend trip within a budget.
+
+1. The user asks the AI system to plan a weekend trip within a specified budget.
+2. The system identifies the destination, dates, and budget requirements.
+3. It searches for travel options and accommodation using available tools.
+4. It compares the retrieved results against the user's requirements.
+5. It prepares an itinerary and estimated budget.
+6. The user reviews the plan and decides whether to proceed with bookings.
+
+This is an example of an agentic workflow because the system can carry out several connected steps toward a goal using tools and the results it receives. Any booking or payment should require the appropriate user approval.
+
+## 4. What I Learned
+I learned that an LLM is only one component of a larger AI system. An AI application provides the user interface, RAG supplies relevant external information, and tools allow a system to perform operations beyond generating text.
+An AI agent can coordinate multiple steps toward a goal. However, not every chatbot is an agent, and not every AI system needs tools or retrieval.
+
+## 5. Conclusion
+Understanding the difference between a model, an application, RAG, tool use, and an AI agent helps me understand how practical AI systems are designed. This mission helped me see that useful AI systems can combine models, information sources, and tools to complete tasks.
+
