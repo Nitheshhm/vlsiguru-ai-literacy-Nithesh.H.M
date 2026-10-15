@@ -62,21 +62,6 @@ Evaluation and Engineering Review
 Validation and test data should be kept separate from training data for their intended evaluation roles.
 
 ## 4. Linear Regression Example
-Linear regression is a supervised learning method used to predict a numerical target.
-
-A simple linear regression model can be written as:
-
-\[
-$\hat{y} = w_1x_1 + b$
-\]
-
-Where:
-- \(x_1\) is the input feature.
-- \(w_1\) is the learned coefficient or weight.
-- \(b\) is the learned intercept.
-- \(\hat{y}\) is the predicted value.
-
-## 4. Linear Regression Example
 
 Linear regression is a supervised learning method used to predict a numerical target.
 
@@ -87,7 +72,6 @@ $$
 $$
 
 Where:
-
 - \(x_1\) is the input feature.
 - \(w_1\) is the learned coefficient or weight.
 - \(b\) is the learned intercept.
