@@ -67,16 +67,15 @@ Linear regression is a supervised learning method used to predict a numerical ta
 A simple linear regression model can be written as:
 
 \[
-ŷ = w₁x₁ + b
+\hat{y} = w_1x_1 + b
 \]
 
 Where:
-
-- \(x\) is an input feature.
-- \(w\) is the learned coefficient or weight.
+- \(x_1\) is the input feature.
+- \(w_1\) is the learned coefficient or weight.
 - \(b\) is the learned intercept.
 - \(\hat{y}\) is the predicted value.
-
+  
 ### Training Example
 Suppose we want to estimate design-run delay using a simplified input feature such as cell count.
 
