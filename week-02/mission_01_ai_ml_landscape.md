@@ -1,9 +1,5 @@
 # Mission 1 — Build the AI and ML Landscape
 
-**Name:** Nithesh H. M.  
-**Track:** Physical Design (PD)  
-**Week:** 02 — Machine Learning Foundations
-
 ## Research Question
 
 What is artificial intelligence, and where exactly does machine learning fit?
