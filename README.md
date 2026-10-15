@@ -13,7 +13,7 @@ This repository documents my learning throughout the 16-week AI Literacy Layer p
 ## Weekly Progress
 
 - [x] **Week 01 — The AI Landscape:** Completed
-- [ ] Week 02
+- [x] **Week 02 — Machine Learning Foundations:** Completed
 - [ ] Week 03
 - [ ] Week 04
 - [ ] Week 05
@@ -41,6 +41,7 @@ This repository documents my learning throughout the 16-week AI Literacy Layer p
 ## Week 01 — The AI Landscape
 
 **Status:** Completed
+
 - [Week 01 README](week-01/README.md)
 - [Missions 1–9](week-01/missions.md)
 - [Final Reflection](week-01/final-reflection.md)
@@ -50,10 +51,42 @@ This repository documents my learning throughout the 16-week AI Literacy Layer p
 - [Evidence Folder](week-01/evidence/)
 
 ## Python Activity
+
 - [Python Week 01 Folder](python/week-01/)
 - [Hello Python Program](python/week-01/hello.py)
 
+## Week 02 — Machine Learning Foundations
+
+**Status:** Completed
+
+Completed nine research missions covering AI and ML fundamentals, data, learning approaches, ML task types, model anatomy, evaluation, failure modes, and when to use machine learning.
+
+### Week 02 Deliverables
+
+- [Week 02 README](week-02/README.md)
+- [Mission 1 — AI and ML Landscape](week-02/mission_01_ai_ml_landscape.md)
+- [Mission 2 — Understand Data](week-02/mission_02_data.md)
+- [Mission 3 — Learning Approaches](week-02/mission_03_learning_approaches.md)
+- [Mission 4 — ML Task Types](week-02/mission_04_ml_tasks.md)
+- [Mission 5 — Model Anatomy](week-02/mission_05_model_anatomy.md)
+- [Mission 6 — Evaluation and Generalisation](week-02/mission_06_evaluation.md)
+- [Mission 7 — Failure Modes and Risks](week-02/mission_07_failure_modes.md)
+- [Mission 8 — When to Use ML](week-02/mission_08_when_to_use_ml.md)
+- [Mission 9 — Semiconductor Case Study](week-02/mission_09_semiconductor_case_study.md)
+- [AI and ML Mental Map](week-02/ml_mental_map.png)
+- [ML Lifecycle Map](week-02/ml_lifecycle_map.png)
+- [Sources and References](week-02/sources.md)
+- [Week 02 Reflection](week-02/reflection.md)
+- [Week 02 Engineering Journal](journal/week-02.md)
+
+### Key Learning
+
+Explored how machine learning may support Physical Design, including a hypothetical application that predicts whether a semiconductor design is likely to meet timing. Learned why data quality, evaluation metrics, monitoring, and engineering sign-off matter when using ML predictions.
+
 ## AI Usage Declaration
+
 **AI tools used:** ChatGPT and Claude.
+
 **Used for:** Explanation, brainstorming, comparison, reviewing, and formatting.
+
 I reviewed important factual and technical claims using external sources as part of my verification work. AI was used as a learning assistant, and I am responsible for understanding and reviewing the work I submit.
