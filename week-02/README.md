@@ -39,7 +39,7 @@ Week 02 focuses on understanding how machine learning works, how learning approa
 - [x] [Data example with identified features and target](mission_02_data.md)
 - [x] [Comparison of supervised, unsupervised, and reinforcement learning](mission_03_learning_approaches.md)
 - [x] [Comparison of major ML task types](mission_04_ml_tasks.md)
-- [ ] Final ML lifecycle map
+- [x] [Final ML lifecycle map](ml_lifecycle_map.png)
 - [x] [Model anatomy and workflow diagram](mission_05_model_anatomy.md)
 - [x] [Evaluation and generalisation analysis](mission_06_evaluation.md)
 - [x] [ML failure modes analysis](mission_07_failure_modes.md)
