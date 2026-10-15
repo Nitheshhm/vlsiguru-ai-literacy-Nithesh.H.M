@@ -59,7 +59,7 @@ Suitable metrics include:
 - **Precision for predicted timing failures:** Measures how many designs flagged as timing failures actually fail timing.
 - **Confusion matrix:** Shows correct and incorrect predictions for both classes.
 - **Accuracy:** Measures the overall proportion of correct predictions.
-- 
+
 Recall for timing failures may be especially important when missing a failing design is costly. Precision also matters because excessive false alarms can waste engineering time.
 
 The final choice of metrics should reflect the engineering risks and intended use of the model.
