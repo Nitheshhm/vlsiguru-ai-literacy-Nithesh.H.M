@@ -5,14 +5,21 @@
 **Week:** 02 — Machine Learning Foundations
 
 ## Research Question
+
 What is artificial intelligence, and where exactly does machine learning fit?
 
 ## 1. Artificial Intelligence and Machine Learning
+
 **Artificial Intelligence (AI)** is the broad field of developing computer systems that perform tasks associated with intelligent behaviour.
+
 **Machine Learning (ML)** is a family of methods within AI that learns patterns from data to make predictions, recognise patterns, or support decisions.
+
 **Deep Learning (DL)** is a subset of machine learning that uses neural networks with multiple layers to learn complex patterns.
+
 **Generative AI** refers to AI systems that generate new content, such as text, images, audio, or code.
+
 **Large Language Models (LLMs)** are models trained on large amounts of text and other tokenised data to understand and generate language.
+
 ## 2. AI and ML Mental Map
 ```text
 Artificial Intelligence (AI)
@@ -64,6 +71,7 @@ AI is the broad field, and machine learning is one approach within it. Deep lear
 Understanding these distinctions helps engineers decide whether a problem is better addressed with fixed rules, a machine-learning model, or a generative AI system.
 
 ## Sources
+
 - IBM — What Is Artificial Intelligence?  
   https://www.ibm.com/think/topics/artificial-intelligence
 
