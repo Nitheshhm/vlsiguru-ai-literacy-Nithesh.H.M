@@ -67,7 +67,7 @@ Linear regression is a supervised learning method used to predict a numerical ta
 A simple linear regression model can be written as:
 
 \[
-\hat{y} = wx + b
+ŷ = w₁x₁ + b
 \]
 
 Where:
