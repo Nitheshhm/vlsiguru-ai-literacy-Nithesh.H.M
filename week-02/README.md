@@ -23,38 +23,49 @@ Week 02 focuses on understanding how machine learning works, how learning approa
 
 ## Research Missions
 
-- [ ] Mission 1 — Build the AI and ML Landscape
-- [ ] Mission 2 — Understand Data
-- [ ] Mission 3 — Understand the Main ML Approaches
-- [ ] Mission 4 — Understand ML Task Types
-- [ ] Mission 5 — Understand an ML Model's Anatomy
-- [ ] Mission 6 — Understand Evaluation and Generalisation
-- [ ] Mission 7 — Understand Why ML Systems Fail
-- [ ] Mission 8 — Decide Whether ML Is Actually Needed
-- [ ] Mission 9 — Connect ML to Semiconductor Engineering
+- [x] [Mission 1 — Build the AI and ML Landscape](mission_01_ai_ml_landscape.md)
+- [x] [Mission 2 — Understand Data](mission_02_data.md)
+- [x] [Mission 3 — Understand the Main ML Approaches](mission_03_learning_approaches.md)
+- [x] [Mission 4 — Understand ML Task Types](mission_04_ml_tasks.md)
+- [x] [Mission 5 — Understand an ML Model's Anatomy](mission_05_model_anatomy.md)
+- [x] [Mission 6 — Understand Evaluation and Generalisation](mission_06_evaluation.md)
+- [x] [Mission 7 — Understand Why ML Systems Fail](mission_07_failure_modes.md)
+- [x] [Mission 8 — Decide Whether ML Is Actually Needed](mission_08_when_to_use_ml.md)
+- [x] [Mission 9 — Connect ML to Semiconductor Engineering](mission_09_semiconductor_case_study.md)
 
 ## Final Deliverables
 
-- [ ] AI and ML mental map
-- [ ] Data example with identified features and target
-- [ ] Comparison of supervised, unsupervised, and reinforcement learning
-- [ ] Comparison of major ML task types
-- [ ] Model anatomy and lifecycle diagrams
-- [ ] Evaluation and generalisation analysis
-- [ ] ML failure modes analysis
-- [ ] Rule-based vs. ML case comparison
-- [ ] Semiconductor engineering case study
-- [ ] Source list and verification notes
-- [ ] Final reflection
+- [x] [AI and ML mental map](ml_mental_map.png)
+- [x] [Data example with identified features and target](mission_02_data.md)
+- [x] [Comparison of supervised, unsupervised, and reinforcement learning](mission_03_learning_approaches.md)
+- [x] [Comparison of major ML task types](mission_04_ml_tasks.md)
+- [ ] Final ML lifecycle map
+- [x] [Model anatomy and workflow diagram](mission_05_model_anatomy.md)
+- [x] [Evaluation and generalisation analysis](mission_06_evaluation.md)
+- [x] [ML failure modes analysis](mission_07_failure_modes.md)
+- [x] [Rule-based vs. ML case comparison](mission_08_when_to_use_ml.md)
+- [x] [Semiconductor engineering case study](mission_09_semiconductor_case_study.md)
+- [x] [Source list and verification notes](sources.md)
+- [x] [Final reflection](reflection.md)
 
 ## Semiconductor Engineering Connection
 
-This week's work will explore how machine learning may support semiconductor engineering and VLSI Physical Design. The case study will identify an engineering problem, relevant data, an appropriate ML task, evaluation methods, expected benefits, and limitations.
+This week's work explores how machine learning may support semiconductor engineering and VLSI Physical Design.
+
+The semiconductor case study examines timing prediction using historical design characteristics. It identifies the engineering problem, relevant data, ML task, evaluation methods, expected benefits, and limitations.
+
+Machine learning predictions may support early investigation and engineering prioritisation but should not replace required timing analysis or sign-off.
 
 ## Responsible AI Use
 
-AI tools may be used to explore concepts and organise research. Technical claims will be checked against reliable sources, and sources will be recorded. AI-generated explanations will not be treated as proof without supporting evidence.
+AI tools were used to help explore concepts, structure explanations, and prepare research notes.
+
+Technical explanations were compared with educational references, and the sources are documented in [sources.md](sources.md). Illustrative semiconductor examples are clearly distinguished from experimentally verified results.
 
 ## Progress
 
-This section will be updated as each mission and deliverable is completed.
+**Research missions completed:** 9/9
+
+**Remaining task:** Create and add the final ML lifecycle map.
+
+Once the lifecycle map is completed, the Week 02 deliverables can be reviewed for final submission.
