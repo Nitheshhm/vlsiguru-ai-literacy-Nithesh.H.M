@@ -75,7 +75,7 @@ $$
 - `x1` is the input feature.
 - `w1` is the learned coefficient or weight.
 - `b` is the learned intercept.
-- `\hat{y}` is the predicted value.
+- `ŷ` is the predicted value.
   
 ### Training Example
 Suppose we want to estimate design-run delay using a simplified input feature such as cell count.
