@@ -1,9 +1,5 @@
 # Mission 2 — Understand Data
 
-**Name:** Nithesh H. M.  
-**Track:** Physical Design (PD)  
-**Week:** 02 — Machine Learning Foundations
-
 ## Research Question
 
 What does an ML system learn from?
