@@ -95,7 +95,7 @@ Explored AI tools, improved prompts, compared AI-generated explanations, verifie
 - [Week 03 README](week-03/README.md)
 - [AI Tools Exploration](week-03/ai_tools_exploration.md)
 - [OpenROAD Tool Investigation](week-03/vlsi_tool_investigation.md)
-- [Week 03 Personal Reflection](week-03/reflection.md)
+- [Week 03 Reflection](week-03/reflection.md)
 - [Week 03 Engineering Journal](journal/week-03.md)
 
 ### Key Learning
