@@ -4,6 +4,7 @@
 
 - **Name:** Nithesh H. M.
 - **Track:** Physical Design (PD)
+- **Background:** BE Graduate in Electronics and Communication Engineering (ECE)
 - **Program:** VLSIGuru AI Literacy Layer (16-Week Program)
 
 ## About This Portfolio
@@ -14,7 +15,7 @@ This repository documents my learning throughout the 16-week AI Literacy Layer p
 
 - [x] **Week 01 — The AI Landscape:** Completed
 - [x] **Week 02 — Machine Learning Foundations:** Completed
-- [ ] Week 03
+- [x] **Week 03 — Practical AI Tools & Engineering Learning:** Completed
 - [ ] Week 04
 - [ ] Week 05
 - [ ] Week 06
@@ -83,9 +84,29 @@ Completed nine research missions covering AI and ML fundamentals, data, learning
 
 Explored how machine learning may support Physical Design, including a hypothetical application that predicts whether a semiconductor design is likely to meet timing. Learned why data quality, evaluation metrics, monitoring, and engineering sign-off matter when using ML predictions.
 
+## Week 03 — Practical AI Tools & Engineering Learning
+
+**Status:** Completed
+
+Explored AI tools, improved prompts, compared AI-generated explanations, verified a technical claim, and investigated OpenROAD as an open-source tool relevant to Physical Design.
+
+### Week 03 Deliverables
+
+- [Week 03 README](week-03/README.md)
+- [AI Tools Exploration](week-03/ai_tools_exploration.md)
+- [OpenROAD Tool Investigation](week-03/vlsi_tool_investigation.md)
+- [Week 03 Personal Reflection](week-03/reflection.md)
+- [Week 03 Engineering Journal](journal/week-03.md)
+
+### Key Learning
+
+Compared ChatGPT, Gemini, and Claude to understand how different AI tools explain the same concepts. Learned that clear prompts improve the relevance of responses and that important technical claims need independent verification. Investigated OpenROAD's digital implementation workflow, including floorplanning, placement, clock tree synthesis, and routing.
+
+**Practical note:** OpenROAD documentation was reviewed, but a complete implementation flow has not yet been run.
+
 ## AI Usage Declaration
 
-**AI tools used:** ChatGPT and Claude.
+**AI tools used:** ChatGPT, Claude, and Gemini.
 
 **Used for:** Explanation, brainstorming, comparison, reviewing, and formatting.
 
