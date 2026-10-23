@@ -16,6 +16,7 @@ This week focused on exploring AI tools, improving prompts, comparing AI-generat
 - [x] Record learning outcomes and questions for the ML masterclass.
 
 ## Missions and Deliverables
+
 ### Mission 3 — AI Tools Exploration
 **File:** [`ai_tools_exploration.md`](ai_tools_exploration.md)
 - Explored ChatGPT, Gemini, and Claude.
@@ -25,8 +26,8 @@ This week focused on exploring AI tools, improving prompts, comparing AI-generat
 - Recorded responsible AI practices.
 
 ### Mission 4 — Open-Source VLSI Tool Investigation
-**File:** [`vlsi_tool_investigation.md`](vlsi_tool_investigation.md)
 
+**File:** [`vlsi_tool_investigation.md`](vlsi_tool_investigation.md)
 **Tool selected:** OpenROAD
 - Investigated the tool's purpose, inputs, and outputs.
 - Reviewed the basic digital implementation workflow.
@@ -35,6 +36,7 @@ This week focused on exploring AI tools, improving prompts, comparing AI-generat
 - Reviewed documentation; a complete implementation flow has not yet been run.
 
 ### Mission 5 — Personal Reflection
+
 **File:** [`reflection.md`](reflection.md)
 
 - Reflected on the usefulness of different AI tools.
