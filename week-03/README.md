@@ -1,45 +1,54 @@
 # Week 03 — Practical AI Tools & Engineering Learning
-
 **Name:** Nithesh H. M.  
 **Track:** Physical Design (PD)  
-**Program:** VLSIGuru AI Literacy Layer — 16-Week Program  
+**Program:** VLSIGuru AI Literacy Layer  
 **Week:** 03
 
 ## Overview
-
-Week 03 focuses on exploring practical AI tools, improving prompts, verifying AI-generated information, continuing Python learning, and investigating an open-source VLSI tool.
+This week focused on exploring AI tools, improving prompts, comparing AI-generated answers, verifying technical claims, and investigating an open-source VLSI tool relevant to Physical Design.
 
 ## Learning Objectives
+- [x] Explore AI tools for engineering learning.
+- [x] Improve prompts using context, constraints, and expected output.
+- [x] Compare ChatGPT, Gemini, and Claude using the same question.
+- [x] Verify an AI-generated claim using a reliable source.
+- [x] Investigate an open-source VLSI tool relevant to Physical Design.
+- [x] Record learning outcomes and questions for the ML masterclass.
 
-- Explore AI tools for learning and engineering tasks.
-- Practise improving prompts to get better answers.
-- Compare AI tools and verify claims using reliable sources.
-- Continue learning Python through CS50P.
-- Investigate an open-source VLSI tool relevant to Physical Design.
-- Use AI responsibly and protect confidential engineering data.
+## Missions and Deliverables
+### Mission 3 — AI Tools Exploration
+**File:** [`ai_tools_exploration.md`](ai_tools_exploration.md)
+- Explored ChatGPT, Gemini, and Claude.
+- Improved a prompt related to machine learning in VLSI Physical Design.
+- Compared explanations of supervised and unsupervised learning.
+- Documented verification of a claim using Google's Machine Learning Crash Course.
+- Recorded responsible AI practices.
 
-## Tasks
+### Mission 4 — Open-Source VLSI Tool Investigation
+**File:** [`vlsi_tool_investigation.md`](vlsi_tool_investigation.md)
 
-- [ ] Review pending Week 1 and Week 2 work.
-- [ ] Continue CS50P Python.
-- [ ] Explore AI tools and practise prompt improvement.
-- [ ] Compare two AI tools on the same question.
-- [ ] Verify one AI-generated claim using a reliable source.
-- [ ] Investigate one open-source VLSI tool.
-- [ ] Complete the Week 3 reflection.
+**Tool selected:** OpenROAD
+- Investigated the tool's purpose, inputs, and outputs.
+- Reviewed the basic digital implementation workflow.
+- Explored potential applications of AI/ML in Physical Design.
+- Documented limitations and official references.
+- Reviewed documentation; a complete implementation flow has not yet been run.
 
-## Deliverables
+### Mission 5 — Personal Reflection
+**File:** [`reflection.md`](reflection.md)
 
-- [ ] AI tools exploration
-- [ ] Prompt examples and comparison
-- [ ] Claim verification record
-- [ ] VLSI tool investigation
-- [ ] Final reflection
+- Reflected on the usefulness of different AI tools.
+- Recorded the prompt changes that improved responses.
+- Summarised claim verification.
+- Documented learning about OpenROAD.
+- Listed two questions for the ML masterclass.
 
-## Responsible AI Use
+## Responsible AI Practices
+- Verify important technical claims using reliable sources.
+- Compare AI-generated explanations rather than relying on a single answer.
+- Review generated technical information critically.
+- Do not upload confidential RTL, netlists, timing constraints, or proprietary design data to public AI tools.
+- Take responsibility for understanding and validating submitted work.
 
-AI-generated information must be checked against reliable sources. Confidential RTL, netlists, timing constraints, and proprietary design data must not be uploaded to public AI tools.
-
-## Progress
-
-Week 3 work is in progress.
+## Week 3 Summary
+This week's activities strengthened my understanding of prompt improvement, AI-assisted learning, source verification, and open-source Physical Design tools. As an ECE graduate specialising in VLSI PD, I want to continue developing my Python and Physical Design skills and explore how AI/ML can support engineering workflows.
