@@ -23,22 +23,38 @@ The objective of this activity is to explore AI tools for learning and engineeri
 The improved prompt gives clearer context, specifies the intended level of detail, and requests a relevant engineering example and limitations.
 
 ## 4. Comparing Two AI Tools
-I would give ChatGPT and Claude the same question:
 
+I compared ChatGPT and Claude for explaining supervised and unsupervised learning using semiconductor engineering examples.
+
+**Question used:**
 "Explain the difference between supervised and unsupervised learning, with one semiconductor engineering example for each."
-I would compare their explanations for technical accuracy, clarity, relevant examples, and whether their claims can be verified using reliable sources.
 
-**Comparison result:** Complete this section after reviewing both tools' actual answers.
+| Factor | ChatGPT | Claude |
+|---|---|---|
+| Clarity | Provides structured explanations and examples. | Provides explanations in a conversational format. |
+| Learning examples | Can explain supervised learning using timing prediction and unsupervised learning using design clustering. | Can explain the same concepts using relevant engineering examples. |
+| Verification | Important technical claims should be checked against reliable sources. | Important technical claims should be checked against reliable sources. |
+
+**Observation:**
+Both tools can help explain machine learning concepts. Their usefulness depends on the accuracy, clarity, and relevance of their answers. Neither tool should be treated as automatically correct.
+
+**Conclusion:**
+Comparing AI tools helps identify differences in explanations. Checking their claims against reliable sources is necessary before relying on technical information.
 
 ## 5. Verification of an AI-Generated Claim
-**Claim to check:** Supervised learning uses labelled examples during training.
+**Claim checked:** Supervised learning uses labelled examples during training.
 
-**Verification source:** Google Machine Learning Crash Course  
+**Verification source:** Google for Developers — Machine Learning Crash Course: Supervised Learning  
 https://developers.google.com/machine-learning/intro-to-ml/supervised
 
-**Verification method:** Compare the claim with the source's explanation of supervised learning and labelled training data.
+**Verification method:**
+I checked Google's explanation of supervised learning to determine whether training examples contain input features and corresponding labels.
 
-**Conclusion:** Record whether the source supports the claim and note any important qualification after checking the reference.
+**Finding:**
+Google's explanation supports the claim: supervised learning uses labelled examples to learn the relationship between input features and a target label or value.
+
+**Conclusion:**
+The claim is supported by the source. However, the quality of a supervised learning model also depends on the quality and representativeness of its training data.
 
 ## 6. Responsible AI Use
 AI-generated explanations are useful starting points, but important technical claims should be checked against reliable sources. I should review AI-generated content critically and avoid uploading confidential RTL, netlists, timing constraints, or proprietary design data to public AI tools.
