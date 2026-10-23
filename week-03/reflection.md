@@ -1,12 +1,11 @@
-# Week 03 — Personal Reflection
-
+# Week 03 — Reflections
 ## 1. Which AI tool was most useful, and for what task?
 
-ChatGPT was useful for structured explanations of machine learning concepts. Gemini provided detailed examples, while Claude offered another perspective. Comparing all three helped me understand the value of using multiple AI tools.
+ChatGPT helped me understand machine learning concepts and organise technical information. Gemini and Claude provided different explanations and examples. Comparing all three helped me understand the value of using multiple AI tools.
 
 ## 2. What prompt change improved the answer most?
 
-Adding my Physical Design (PD) context and specifying examples, input features, outputs, and limitations improved the answer. This made the explanation more relevant to my engineering studies.
+Adding my ECE background and VLSI PD specialisation made the answers more relevant. Asking for beginner-friendly explanations, Physical Design examples, input features, outputs, and limitations improved the responses.
 
 ## 3. What claim did you verify, and what did the source establish?
 
@@ -14,19 +13,19 @@ I verified that supervised learning uses labelled examples during training.
 
 **Source:** [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/intro-to-ml/supervised)
 
-The source supported the claim and reinforced the importance of independently checking AI-generated technical information.
+The source supported the claim and reinforced the importance of checking AI-generated technical information against reliable references.
 
 ## 4. What did you learn about the open-source VLSI tool?
 
-I explored OpenROAD, an open-source tool relevant to Physical Design. I learned that it supports floorplanning, placement, clock tree synthesis, routing, and finishing. I reviewed its documentation but have not run a complete implementation flow.
+I explored OpenROAD, an open-source tool relevant to my PD specialisation. I learned that it supports floorplanning, placement, clock tree synthesis, routing, and finishing. I reviewed its documentation but have not run a complete implementation flow.
 
-**Sources:** [OpenROAD Website](https://openroad.org/) | [Documentation](https://openroad.readthedocs.io/en/latest/)
+**Sources:** [OpenROAD](https://openroad.org/) | [GitHub](https://github.com/The-OpenROAD-Project/OpenROAD)
 
 ## 5. What are two questions for the ML masterclass?
 
-1. How can ML predict timing violations and congestion during Physical Design?
-2. How can we evaluate an ML model's accuracy and reliability before using its predictions in engineering?
+1. How can machine learning predict timing violations and congestion during VLSI Physical Design?
+2. How can we evaluate an ML model's reliability before using its predictions in engineering decisions?
 
 ## Final Reflection
 
-This week taught me that clear prompts improve AI responses, different tools offer different perspectives, and reliable sources are essential for verification. Exploring OpenROAD connected my PD studies with an open-source implementation workflow. I want to strengthen my Python and PD skills while learning to apply AI responsibly and verify the results I use.
+As an ECE graduate specialising in VLSI PD, I learned how AI tools can support technical learning and how better prompts produce more relevant explanations. Verifying claims and exploring OpenROAD helped connect AI concepts with Physical Design workflows. I want to strengthen my Python and PD skills and learn how to apply AI/ML responsibly to real engineering problems.
