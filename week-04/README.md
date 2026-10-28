@@ -30,10 +30,11 @@
 - [ ] Explain input layers, hidden layers, output layers, neurons, weights, biases, and activation functions.
 - [ ] Create a labelled neural network diagram.
 
-**Files:**
-- [Neural Network Diagram](neural_network_diagram.png)
-- [Neural Network Explanation](neural_network_explanation.md)
+**File:** [Neural Network Diagram](neural_network_diagram.png)
 
+**How it works:** A semiconductor inspection image is converted into numerical pixel values and passed to the input layer. Hidden-layer neurons process the values using learned weights, biases, and activation functions to identify patterns. The output layer produces probabilities for classes such as “Defect” and “No defect,” and the class with the highest probability becomes the model's prediction.
+
+A prediction is not proof that a physical defect exists. The result should be verified using reliable inspection methods and engineering judgment. The probabilities in the diagram are illustrative, not results from a trained model.
 ### Mission 4 — How Does a Neural Network Learn?
 - [ ] Explain forward propagation, loss, backpropagation, parameter updates, epochs, and generalisation.
 - [ ] Create a training-process flowchart.
