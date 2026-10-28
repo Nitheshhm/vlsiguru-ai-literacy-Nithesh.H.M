@@ -105,17 +105,23 @@ These situations show that data quality affects what a neural network learns, wh
 
 ```mermaid
 flowchart TD
-    A["Input image and target label"] --> B["Forward pass"]
+    A["Training image and target label"] --> B["Forward pass"]
     B --> C["Prediction"]
     C --> D["Calculate loss"]
     D --> E["Backpropagation"]
     E --> F["Optimiser updates weights and biases"]
     F --> G{"More training steps?"}
     G -- Yes --> B
-    G -- No --> H["Evaluate on unseen test data"]
-    H --> I["Review performance and errors"]
+    G -- No --> H["Evaluate using validation data"]
+    H --> I{"Model needs improvement?"}
+    I -- Yes --> J["Adjust model settings"]
+    J --> B
+    I -- No --> K["Final evaluation using independent test data"]
+    K --> L["Review performance and errors"]
 ```
 
+
+    
 ### Explanation of the Flowchart
 
 1. **Input and target:** Provide a training image and its verified label.
