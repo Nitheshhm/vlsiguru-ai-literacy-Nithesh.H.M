@@ -1,12 +1,8 @@
-# Week 03 — AI Tools & Engineering Learning Journal
+# Week 03 — AI Engineering Journal
 
-**Date:** 23 October 2026
-
-## Student Information
-
-- **Name:** Nithesh H. M.
-- **Track:** Physical Design (PD)
-- **Background:** BE graduate in Electronics and Communication Engineering (ECE)
+**Date:** Friday, 23 October 2026  
+**Track:** Physical Design (PD)  
+**Topic:** Practical AI Tools & Engineering Learning
 
 ## 1. What I Worked On
 
