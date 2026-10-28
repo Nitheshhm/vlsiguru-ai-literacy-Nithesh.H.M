@@ -20,9 +20,9 @@ I used TensorFlow Playground to compare a baseline network with two hidden layer
 
 ### Observations
 
-At epoch 1,423, the displayed training loss was 0.000 and the displayed test loss was 0.000. The decision boundary separated the central blue points from the outer orange points.
+At epoch 1,500, the displayed training loss was 0.000 and the displayed test loss was 0.001. The decision boundary separated the central blue points from the surrounding orange points.
 
-The baseline network learned the classification pattern successfully.
+The baseline network learned the Circle classification pattern successfully.
 
 ## 3. Experiment B — Modified Configuration
 
@@ -40,9 +40,9 @@ I added one hidden layer while keeping the other settings unchanged.
 
 ### Observations
 
-At epoch 3,082, the displayed training loss was 0.000 and the displayed test loss was 0.001. The decision boundary separated the inner blue points from the outer orange points well.
+At epoch 1,500, the displayed training loss was 0.000 and the displayed test loss was 0.000. The decision boundary separated the central blue points from the surrounding orange points well.
 
-The added hidden layer did not produce a noticeable improvement in the displayed test loss compared with the baseline.
+The modified network showed a slightly lower displayed test loss than the baseline in this experiment.
 
 ## 4. Comparison
 
@@ -50,11 +50,18 @@ The added hidden layer did not produce a noticeable improvement in the displayed
 |---|---:|---:|
 | Hidden layers | 2 | 3 |
 | Neurons per layer | 4, 2 | 4, 2, 2 |
-| Epoch | 1,423 | 3,082 |
+| Epoch | 1,500 | 1,500 |
 | Training loss | 0.000 | 0.000 |
-| Test loss | 0.000 | 0.001 |
+| Test loss | 0.001 | 0.000 |
+| Activation function | Tanh | Tanh |
+| Learning rate | 0.03 | 0.03 |
+| Regularization | None | None |
+| Regularization rate | 0 | 0 |
+| Noise | 0 | 0 |
+| Training-to-test ratio | 50% | 50% |
+| Batch size | 10 | 10 |
 
-The displayed loss values are rounded by the tool. The experiments also stopped at different epochs, so this is an observation from the two runs rather than a controlled proof that one architecture is always better.
+Both experiments were compared at the same displayed epoch with the same displayed settings, except for the additional hidden layer. The displayed loss values are rounded, so the small difference in test loss does not prove that a deeper network always performs better.
 
 ## 5. Answers to the Investigation Questions
 
@@ -64,7 +71,7 @@ I added a third hidden layer containing two neurons. The network became more com
 
 ### Did the more complex network always perform better?
 
-No. In these runs, the baseline displayed a test loss of 0.000, while the modified network displayed a test loss of 0.001. Both learned a good decision boundary.
+No. In these runs, the baseline displayed a test loss of 0.001, while the modified network displayed a test loss of 0.000. Both learned a good decision boundary. However, the small difference in rounded loss values does not prove that a deeper network always performs better.
 
 ### What did I observe about model complexity?
 
@@ -84,9 +91,11 @@ A practical application would require representative labelled inspection images,
 
 ## 6. Conclusion
 
-The experiment showed that both network configurations learned the Circle classification pattern. Adding a hidden layer did not improve the displayed test loss in these runs.
+Both network configurations learned the Circle classification pattern at epoch 1,500. The three-hidden-layer network displayed a test loss of 0.000, compared with 0.001 for the two-hidden-layer baseline. Both displayed training losses of 0.000.
 
-The main lesson is that a more complex neural network is not automatically better. Model selection should be based on suitable evaluation data, the problem's requirements, and the consequences of incorrect predictions.
+The experiment suggests that adding a hidden layer did not produce a large visible change in performance. Because the loss values are rounded, the small difference does not establish that a deeper network is consistently better.
+
+Model complexity should be evaluated using appropriate data, model performance, and the requirements of the problem.
 
 ## 7. Evidence
 
