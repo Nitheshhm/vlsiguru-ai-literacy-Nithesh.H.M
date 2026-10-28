@@ -88,13 +88,16 @@ The following diagram summarises the workflow from raw inspection images to eval
 ```mermaid
 flowchart TD
     A["Raw inspection images"] --> B["Clean, resize and format data"]
-    B --> C["Labelled and quality-checked dataset"]
-    C --> D["Split into training, validation and test sets"]
-    D --> E["Train neural network"]
-    E --> F["Trained model"]
-    F --> G["Predict defect or no defect"]
-    G --> H["Evaluate against verified labels"]
-    H --> I["Review errors and limitations"]
+    B --> C["Assign and verify labels"]
+    C --> D["Check data quality and duplicates"]
+    D --> E["Split into training, validation and test sets"]
+    E --> F["Train model using training set"]
+    F --> G["Evaluate using validation set"]
+    G --> H{"Improve the model?"}
+    H -- Yes --> I["Adjust model settings"]
+    I --> F
+    H -- No --> J["Final evaluation using test set"]
+    J --> K["Review errors and limitations"]
 ```
 
 ### Explanation of Each Stage
