@@ -18,13 +18,14 @@ Deep learning can learn useful representations directly from more complex inputs
 The network learns by adjusting its parameters to reduce prediction errors on training examples. However, useful learning depends on suitable data, an appropriate model, and reliable evaluation.
 
 ## 3. Comparison of the Three Approaches
-| Approach | How it works | Problems it may handle | Example | Limitations |
-|---|---|---|---|---|
-| Rule-based system | A human defines explicit rules and conditions. | Problems with clear, stable requirements that can be described using rules. | Flag an inspection image for review if a measured feature exceeds a specified threshold. | Rules may miss unfamiliar patterns and can require frequent manual updates. |
-| Traditional machine learning | An algorithm learns relationships from examples, often using selected or engineered features. | Structured data and classification or prediction tasks where meaningful features can be prepared. | Predict a possible defect using measurements such as defect size, contrast, and shape. | Performance depends on data quality and feature selection; complex image patterns may be difficult to represent with simple features. |
-| Deep learning | A multilayer neural network learns useful representations and relationships from training data. | Complex inputs such as images, audio, and language, when sufficient suitable data and computing resources are available. | Classify semiconductor inspection images as defective or non-defective using labelled training images. | Can need substantial data and computing resources, may be difficult to interpret, and can fail on unfamiliar data. |
 
-These are general comparisons. Actual performance depends on the problem, data, implementation, and evaluation method.
+| Approach | How it works | Advantages | Example | Limitations |
+|---|---|---|---|---|
+| Rule-based system | A human defines explicit rules and conditions. | Easy to understand, predictable for stable requirements, and straightforward to audit. | Flag an inspection measurement if it exceeds a specified threshold. | May miss unfamiliar patterns and require manual updates when conditions change. |
+| Traditional machine learning | An algorithm learns patterns from examples, often using selected or engineered features. | Can work well with structured data and useful features; may require fewer computing resources than deep learning. | Predict defect risk using measurements such as defect size, contrast, and shape. | Performance depends on data quality and feature selection; complex patterns may be difficult to represent using the chosen features. |
+| Deep learning | A multilayer neural network learns representations and patterns from training data. | Can learn complex features from images and other unstructured data, reducing the need to manually design every feature. | Classify semiconductor inspection images as defective or non-defective. | May require substantial training data and computing resources, can be difficult to interpret, and may fail on unfamiliar data. |
+
+These are general tendencies, not guarantees. Actual performance depends on the problem, available data, and implementation.
 
 ## 4. How Does a Model Learn Useful Patterns?
 A machine learning model is trained using examples. In supervised learning, each training example contains input data and a target label or value.
