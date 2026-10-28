@@ -85,7 +85,7 @@ This reflection summarizes what I learned about data preparation, neural network
 
 This journal records my Week 04 learning progress, observations from the TensorFlow Playground experiments, challenges encountered, and key takeaways related to applying AI and machine learning in Physical Design.
 
-[Read Week 04 Engineering Journal](../../journal/week-04.md)
+[Read Week 04 Engineering Journal](../journal/week-04.md)
 
 ## Responsible Use of AI
 
