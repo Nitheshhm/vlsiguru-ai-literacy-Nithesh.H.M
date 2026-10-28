@@ -131,8 +131,9 @@ flowchart TD
 5. **Backpropagation:** Calculate gradients that indicate how the trainable parameters affect the loss.
 6. **Parameter updates:** Use an optimiser to update weights and biases.
 7. **Repeated training:** Continue training steps and epochs as appropriate.
-8. **Evaluation:** Assess the trained model on separate, unseen test data.
-9. **Error review:** Analyse mistakes and limitations before considering practical use.
+8. **Validation:** Evaluate the model using separate validation data to compare configurations and decide whether improvements are needed.
+9. **Final evaluation:** After model choices are made, evaluate the selected model using independent test data.
+10. **Error review:** Analyse mistakes and limitations before considering practical use.
 
 ## 11. Conclusion
 
