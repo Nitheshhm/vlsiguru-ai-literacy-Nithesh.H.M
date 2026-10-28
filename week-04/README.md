@@ -71,15 +71,21 @@ A prediction is not proof that a physical defect exists. The result should be ve
 
 ## References
 
-[Sources and References](sources.md)
+This document lists the technical resources and research papers consulted to verify concepts related to deep learning, neural networks, model evaluation, and machine learning applications in Physical Design.
+
+[View Sources and References](sources.md)
 
 ## Reflection
 
-[Week 04 Reflection](reflection.md)
+This reflection summarizes what I learned about data preparation, neural networks, model training, generalisation, and the importance of evaluating models on unseen data.
+
+[Read Week 04 Reflection](reflection.md)
 
 ## Engineering Journal
 
-[Week 04 Engineering Journal](../journal/week-04.md)
+This journal records my Week 04 learning progress, observations from the TensorFlow Playground experiments, challenges encountered, and key takeaways related to applying AI and machine learning in Physical Design.
+
+[Read Week 04 Engineering Journal](../../journal/week-04.md)
 
 ## Responsible Use of AI
 
