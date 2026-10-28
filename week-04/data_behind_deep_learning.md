@@ -84,6 +84,7 @@ Duplicates and closely related images must also be handled carefully. For exampl
 
 ## 8. Data Preparation Flow Diagram
 The following diagram summarises the workflow from raw inspection images to evaluation.
+
 ```mermaid
 flowchart TD
     A["Raw inspection images"] --> B["Clean, resize and format data"]
