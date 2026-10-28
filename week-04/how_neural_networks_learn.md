@@ -101,6 +101,7 @@ Possible causes include overfitting, unrepresentative training data, data-qualit
 **Possible improvement:** Evaluate on suitable validation and test datasets, inspect errors, and check whether the data represents the conditions in which the model will be used.
 
 ## 10. Training-Process Flowchart
+These situations show that data quality affects what a neural network learns, while evaluation on unseen data helps determine whether the learned patterns generalise. Incorrect labels can mislead training, and strong training performance alone cannot prove that a model will work reliably in practice.
 
 ```mermaid
 flowchart TD
