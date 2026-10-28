@@ -1,4 +1,4 @@
-# Week 03 —— AI Tools & Engineering Learning Journal
+# Week 03 — AI Tools & Engineering Learning Journal
 
 **Date:** 23 October 2026
 
