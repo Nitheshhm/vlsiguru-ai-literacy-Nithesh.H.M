@@ -1,7 +1,8 @@
 # Week 01 — AI Engineering Journal
 
 **Date:** Friday, 2 October 2026  
-**Track:** Physical Design (PD)
+**Track:** Physical Design (PD)  
+**Topic:** The AI Landscape
 
 ## Weekly Reflection Table
 
