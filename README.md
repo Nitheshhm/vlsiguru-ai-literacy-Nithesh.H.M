@@ -122,6 +122,7 @@ Explored numerical data representation, data preparation, dataset quality, and t
 - [Final Challenge — Engineering Case Study](week-04/engineering_case_study.md)
 - [Sources and References](week-04/sources.md)
 - [Week 04 Reflection](week-04/reflection.md)
+- [Week 04 Engineering Journal](journal/week-04.md)
 
 ### Key Learning
 
