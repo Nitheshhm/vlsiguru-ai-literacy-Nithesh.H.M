@@ -1,11 +1,8 @@
-# Week 04 —AI Engineering Journal
-**Date:** 28 October 2026
+# Week 04 — AI Engineering Journal
 
-## Student Information
-
-- **Name:** Nithesh H. M.
-- **Track:** Physical Design (PD)
-- **Topic:** Data & Deep Learning Foundations
+**Date:** Wednesday, 28 October 2026  
+**Track:** Physical Design (PD)  
+**Topic:** Data & Deep Learning Foundations
 
 ## 1. Week 04 Activities
 
