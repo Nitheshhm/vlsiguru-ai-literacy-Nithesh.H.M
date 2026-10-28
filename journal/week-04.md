@@ -1,4 +1,4 @@
-# Week 04 — Engineering Journal
+# Week 04 —AI Engineering Journal
 **Date:** 28 October 2026
 
 ## Student Information
