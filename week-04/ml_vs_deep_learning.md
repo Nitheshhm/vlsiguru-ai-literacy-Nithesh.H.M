@@ -95,4 +95,4 @@ Deep learning is especially useful to investigate when the data contains complex
 1. Google Machine Learning Crash Course — [Course Overview](https://developers.google.com/machine-learning/crash-course/)
 2. Google Machine Learning Crash Course — [Neural Networks](https://developers.google.com/machine-learning/crash-course/neural-networks)
 3. Google Machine Learning Crash Course — [Classification](https://developers.google.com/machine-learning/crash-course/classification)
-4. Google Machine Learning Crash Course — [Overfitting and Generalization](https://developers.google.com/machine-learning/crash-course/overfitting/overfitting)
+4. Google Machine Learning Crash Course — [Overfitting](https://developers.google.com/machine-learning/crash-course/overfitting/overfitting)
