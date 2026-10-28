@@ -72,7 +72,7 @@ An ML-based timing-risk model could help engineers prioritize paths or blocks fo
 
 An engineer must review flagged paths, inspect timing reports, and use the normal verification flow to confirm whether timing constraints are satisfied. The model must not replace final static timing analysis or signoff verification.
 
-This case study proposes investigating machine learning for early timing-risk estimation in Physical Design. Deep learning may help model complex relationships, but its value must be demonstrated through comparison with simpler methods and evaluation on unseen designs. Reliable timing analysis and engineering judgment remain essential..
+This case study proposes investigating machine learning for early timing-risk estimation in Physical Design. Deep learning may help model complex relationships, but its value must be demonstrated through comparison with simpler methods and evaluation on unseen designs. Reliable timing analysis and engineering judgment remain essential.
 
 ## References
 
