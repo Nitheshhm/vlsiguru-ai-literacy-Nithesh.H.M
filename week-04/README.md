@@ -30,7 +30,9 @@
 - [ ] Explain input layers, hidden layers, output layers, neurons, weights, biases, and activation functions.
 - [ ] Create a labelled neural network diagram.
 
-**Files:** [Neural Network Explanation](neural_network_diagram.png)
+**Files:**
+- [Neural Network Diagram](neural_network_diagram.png)
+- [Neural Network Explanation](neural_network_explanation.md)
 
 ### Mission 4 — How Does a Neural Network Learn?
 - [ ] Explain forward propagation, loss, backpropagation, parameter updates, epochs, and generalisation.
