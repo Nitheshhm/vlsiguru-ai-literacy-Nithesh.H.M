@@ -33,7 +33,7 @@ This file records the learning resources and technical references used while pre
 
 ## 5. Google — Classification Evaluation Metrics
 
-**Link:** [Accuracy, Precision, Recall, and Related Metrics](https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall)
+**Link:** [Classification: Accuracy, Recall, Precision, and Related Metrics](https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall)
 
 **Used for:** Understanding precision, recall, F1 score, false positives, and false negatives when evaluating a classification model.
 
