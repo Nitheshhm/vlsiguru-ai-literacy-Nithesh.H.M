@@ -1,10 +1,12 @@
 # Week 04 — Engineering Journal
+**Date:** 28 October 2026
 
 ## Student Information
 
 - **Name:** Nithesh H. M.
 - **Track:** Physical Design (PD)
-- **Program:** VLSIGuru AI Literacy Layer
+**Topic:** Data & Deep Learning Foundations
+
 
 ## 1. Week 04 Activities
 
