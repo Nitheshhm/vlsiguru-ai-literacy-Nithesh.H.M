@@ -16,7 +16,7 @@ This repository documents my learning throughout the 16-week AI Literacy Layer p
 - [x] **Week 01 — The AI Landscape:** Completed
 - [x] **Week 02 — Machine Learning Foundations:** Completed
 - [x] **Week 03 — Practical AI Tools & Engineering Learning:** Completed
-- [ ] Week 04
+- [x] **Week 04 — Data & Deep Learning Foundations:** Completed
 - [ ] Week 05
 - [ ] Week 06
 - [ ] Week 07
@@ -103,6 +103,32 @@ Explored AI tools, improved prompts, compared AI-generated explanations, verifie
 Compared ChatGPT, Gemini, and Claude to understand how different AI tools explain the same concepts. Learned that clear prompts improve the relevance of responses and that important technical claims need independent verification. Investigated OpenROAD's digital implementation workflow, including floorplanning, placement, clock tree synthesis, and routing.
 
 **Practical note:** OpenROAD documentation was reviewed, but a complete implementation flow has not yet been run.
+
+## Week 04 — Data & Deep Learning Foundations
+
+**Status:** Completed
+
+Explored numerical data representation, data preparation, dataset quality, and the differences between rule-based systems, traditional machine learning, and deep learning. Studied neural network components and training, and compared two TensorFlow Playground configurations using the Circle classification dataset.
+
+### Week 04 Deliverables
+
+- [Week 04 README](week-04/README.md)
+- [Mission 1 — Data Behind Deep Learning](week-04/data_behind_deep_learning.md)
+- [Mission 2 — What Makes Deep Learning Different?](week-04/ml_vs_deep_learning.md)
+- [Mission 3 — Neural Network Diagram](week-04/neural_network_diagram.png)
+- [Mission 4 — How Neural Networks Learn](week-04/how_neural_networks_learn.md)
+- [Mission 5 — Playground Experiment](week-04/playground_experiment.md)
+- [Baseline Experiment Screenshot](week-04/playground_baseline.png)
+- [Three-Hidden-Layer Experiment Screenshot](week-04/playground_three_hidden_layers.png)
+- [Final Challenge — Engineering Case Study](week-04/engineering_case_study.md)
+- [Sources and References](week-04/sources.md)
+- [Week 04 Reflection](week-04/reflection.md)
+
+### Key Learning
+
+Learned how data quality, reliable labels, suitable dataset splits, and model evaluation affect deep learning results. The TensorFlow Playground experiment showed that both tested network configurations learned the Circle classification pattern at the recorded epoch, while the rounded loss values did not establish that deeper networks consistently perform better.
+
+The engineering case study proposes investigating machine learning to predict timing-violation risk in Physical Design. It is a proposed application, not a trained or experimentally validated system. Any practical use would require representative design data, reliable evaluation, and engineering review; it would not replace static timing analysis or final signoff verification.
 
 ## AI Usage Declaration
 
