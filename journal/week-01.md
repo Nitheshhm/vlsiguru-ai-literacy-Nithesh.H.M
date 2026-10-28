@@ -1,4 +1,4 @@
-# Week 01 AI Engineering Journal
+# Week 01-AI Engineering Journal
 
 **Date:** Friday, 2 October 2026  
 **Track:** Physical Design (PD)
