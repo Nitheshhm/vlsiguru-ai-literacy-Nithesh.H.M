@@ -1,10 +1,9 @@
-# VLSIGuru AI Literacy Layer — Nithesh H. M.
+# VLSIGuru AI Literacy — Nithesh H. M.
 
 ## Student Information
 
 - **Name:** Nithesh H. M.
 - **Track:** Physical Design (PD)
-- **Background:** BE Graduate in Electronics and Communication Engineering (ECE)
 - **Program:** VLSIGuru AI Literacy Layer (16-Week Program)
 
 ## About This Portfolio
