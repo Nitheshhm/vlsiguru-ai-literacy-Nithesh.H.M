@@ -90,7 +90,8 @@ The main lesson is that a more complex neural network is not automatically bette
 
 ## 7. Evidence
 
-- **Experiment A:** Screenshot of the two-hidden-layer baseline after training.
-- **Experiment B:** Screenshot of the three-hidden-layer network after training.
+### Experiment A — Baseline
+![Baseline experiment](playground_baseline.png)
 
-The screenshots document the configurations, epochs, losses, and decision boundaries observed during the experiment.
+### Experiment B — Three hidden layers
+![Modified experiment](playground_three_hidden_layers.png)
