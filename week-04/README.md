@@ -77,6 +77,10 @@ A prediction is not proof that a physical defect exists. The result should be ve
 
 [Week 04 Reflection](reflection.md)
 
+## Engineering Journal
+
+[Week 04 Engineering Journal](../journal/week-04.md)
+
 ## Responsible Use of AI
 
 AI tools may be used to clarify concepts and explore examples. Important technical claims must be checked against reliable sources. The final explanations should reflect my own understanding. Confidential RTL, netlists, timing constraints, and proprietary design data must not be uploaded to public AI services.
