@@ -5,8 +5,7 @@
 
 - **Name:** Nithesh H. M.
 - **Track:** Physical Design (PD)
-**Topic:** Data & Deep Learning Foundations
-
+- **Topic:** Data & Deep Learning Foundations
 
 ## 1. Week 04 Activities
 
