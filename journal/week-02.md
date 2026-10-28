@@ -1,8 +1,8 @@
-# Week 2 — AI Engineering Journal
-**Name:** Nithesh H. M.  
+# Week 02 — AI Engineering Journal
+
+**Date:** Friday, 16 October 2026  
 **Track:** Physical Design (PD)  
-**Program:** VLSIGuru AI Literacy Layer  
-**Week:** 02
+**Topic:** Machine Learning Foundations
 
 ## 1. What I Worked On
 This week, I studied the foundations of machine learning and completed nine research missions covering AI and ML concepts, data, learning approaches, ML task types, model anatomy, evaluation, failure modes, and when to use ML.
